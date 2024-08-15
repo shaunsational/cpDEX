@@ -38,3 +38,22 @@ function changePanel(hash) {
 		//setPanel(e.target.hash); 
 	});	
 })();
+
+import iCal from "https://unpkg.com/ical.js/dist/ical.min.js";
+try {
+
+
+	let response = await fetch('https://calendar.google.com/calendar/ical/c_8db5d62ebb83f1abe411ab100ce8875969643c658c4a6522a279d01d68e31a66%40group.calendar.google.com/public/basic.ics');
+	console.log(response);
+	if (response.ok) { // if HTTP-status is 200-299
+		// get the response body (the method explained below)
+		let json = await response.json();
+		console.log(json);
+	} else {
+		alert("HTTP-Error: " + response.status);
+	}	
+} catch (error) {
+	console.error(error);
+	// Expected output: ReferenceError: nonExistentFunction is not defined
+	// (Note: the exact output may be browser-dependent)
+}
