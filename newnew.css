@@ -97,7 +97,7 @@ header.navbar {
 		}
 		&:after {
 			content: '';
-			background: url(/images/pokeball.png) no-repeat;
+			background: url(./images/pokeball.png) no-repeat;
 			background-size: contain;
 			display: inline-block;
 			left: 1rem;
@@ -375,7 +375,7 @@ dialog {
 	:root {
 		--sidebar-width:	120px;
 	}
-	
+
 	header.navbar  {
 		.title:before {
 			content: '';
