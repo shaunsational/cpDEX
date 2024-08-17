@@ -269,9 +269,55 @@ aside {
 	position: fixed;
 	width: var(--sidebar-width);
 	z-index: 100;
+
+	#pokedex {
+		> em, > ul, > ul li {
+			width: 100%;
+		}
+
+		> em {
+			cursor: pointer;
+			font-size: 1.1em;
+			font-style: normal;
+
+			&:before {
+				color: rgba(var(--bs-secondary-rgb), var(--bs-link-opacity, 1));
+				content: '▼';
+				display: inline-block;
+				font-style: normal;
+				margin-right: .35em;
+				scale: .75;
+				transform: rotate(-90deg);
+				transition: transform .3s;
+                vertical-align: baseline;
+			}
+			&.open:before {
+				transform: rotate(0);
+			}
+		}
+	}
 	
 	.pokedex-links {
+		margin-right: 1px;
 		overflow-y: auto;
+		position: relative;
+
+		&:before,
+		&:after {
+            background: linear-gradient(var(--bs-light), transparent 80%);
+			content: '';
+            display: block;
+            height: 10px;
+            margin-bottom: -5px;
+            position: sticky;
+            top: 0;
+            width: 100%;
+		}
+		&:after {
+            background: linear-gradient(transparent 20%, var(--bs-light));
+            bottom: 0;
+            top: initial;
+		}
 	}
 	
 	.nav-item {
@@ -283,8 +329,9 @@ aside {
 			color: var(--bs-gray-700);
 		
 			.feather {
-				margin-right: 4px;
 				color: inherit;
+                margin-right: .25em;
+                scale: .75;
 			}
 			&:hover {	
 				background: var(--bs-gray-200);
@@ -297,6 +344,12 @@ aside {
 				color: var(--bs-nav-link-color);
 			}			
 		}				
+	}
+	#pokedex .nav-link {
+		&.active {
+			background: unset;
+			border: none;
+		}
 	}
 }
 
@@ -318,58 +371,60 @@ main {
 
 /* Modal */
 dialog {
-	background: transparent;
-	border: none;
-	height: 100%;
-	max-height: 100%;
-	max-width: 100%;
-	overflow: hidden;
-	position: absolute;
-	width: 100%;
-	z-index: 9001;
-
-	&:before {
-		content: '';
-		background: rgba(0, 0, 0, .75); 
-		position: absolute;
-		left: -0;
-		top: 0;  
-		height: 100%;
-		width: 100%;
+	border-radius: 20px;
+	flex-wrap: wrap;
+	max-width: 300px;
+	padding: 0;
+	
+	&::backdrop {
+		background-color: rgba(0,0,0,.35);
 		backdrop-filter: blur(5px);
 	}
+
+	&[open] {
+		box-shadow: 0 5px 15px rgba(0,0,0,.5);
+		display: grid;
+	}
 	
-	> div {
-        align-items: center;
-		background: rgba(255, 255, 255, .8);
-		border-radius: 20px;
-		box-shadow: 0 0 var(--borderRad) #FFF;
-        display: flex;
-        flex-direction: column;
-		height: 480px;
-        justify-content: center;
-		padding: 30px;
-		position: relative;
-		width: 640px;
-		backdrop-filter: blur(5px);
+	&#login[open] {
+		display: grid;
+		align-items: center;
+		font-size: 1rem;
+		justify-content: center;
 		
 		.feather {
-			background: #999;
+			background: #DEDEDE;
+			border: 6px solid #000;
 			border-radius: 50%;
 			display: block;
 			height: 100px;
-			padding: 15px;
+			margin: auto;
+			padding: 5px;
 			width: 100px;
 		}
+
+		p {
+			margin: 1em auto;
+		}
 	}
-	
-	&[open] {
-		display: grid;
-		align-items: center;
-		justify-content: center;
+
+	h4 {
+		background: var(--bs-gray-200);
+		margin: 0;
+		padding: .5em 1em;
+	}
+
+	> div {
+		padding: .5em 1em 1.5em 1em;
+	}
+
+	ol, ul { padding-left: 1em; }
+	li {
+		list-style-type: "➣";
+        margin: .5em 0;
+		padding-left: .5em;
 	}
 }
-
 
 @media (max-width: 700px) {
 	:root {
