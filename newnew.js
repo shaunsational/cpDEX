@@ -14,14 +14,17 @@ function delegate_event(event_type, ancestor_element, target_element_selector, l
 class Panels {
 	constructor() {
 		this.loaded = [];
-		this.classes = {}
+		this.classes = new Map();
 	}
 
 	load(hash) {
 		let path = hash.split('/'), 
 			panel = path[1];
 
-		if (panel !== 'dex' && this.loaded.includes(panel)) {
+		if (this.loaded.includes(panel)) {
+			if (panel == 'dex') {
+				this.classes.get('dex').updateMon(dex[path[2]]);
+			}
 			this.updateNav(path);
 			return true;
 		}
@@ -32,7 +35,11 @@ class Panels {
 
 			if (loaded != false) {
 				this.loaded.push(panel);
+				this.classes.set(panel, loaded);
 				this.updateNav(path);
+				if (panel == 'dex') {
+					loaded.updateMon(dex[path[2]])
+				}
 				return true;
 			}
 			throw new TypeError('Panel method doesn\'t exist or is returning false');
@@ -57,12 +64,13 @@ class Panels {
 	}
 }
 let panels = new Panels();
+let dex = await fetchJSON('./data/pokedex.json');
 
 document.addEventListener("DOMContentLoaded", (async () => {
 	//var events = await fetchJSON('data/events.json');
 	//console.log(events);
 
-	var dex = await fetchJSON('./data/dummydex.json');
+	//var dex = await fetchJSON('./data/pokedex.json');
 	new Sidebar(dex);
 
 	panels.load(window.location.hash || '#/types');
