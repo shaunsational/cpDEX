@@ -67,15 +67,10 @@ let panels = new Panels();
 let dex = await fetchJSON('./data/pokedex.json');
 
 document.addEventListener("DOMContentLoaded", (async () => {
-	//var events = await fetchJSON('data/events.json');
-	//console.log(events);
-
-	//var dex = await fetchJSON('./data/pokedex.json');
 	new Sidebar(dex);
 
 	panels.load(window.location.hash || '#/types');
 
-	/* feather:false */
 	$('#burgerHolder').addEventListener('click', function(e){
 		this.classList.toggle('open');
 		document.body.classList.toggle('show-sidebar');
