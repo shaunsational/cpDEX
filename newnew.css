@@ -536,6 +536,41 @@ main {
 			}
 		}
 	}
+
+	.monCard {
+		align-items: center;
+		display: flex;
+		gap: 10px;
+		margin: 1em 0 0 0;
+		text-decoration: none;
+
+		background-image: url(data-bg);
+		background-repeat: no-repeat;
+		background-position: left center;
+
+		span {
+			color: var(--bs-gray-700);
+			font-size: 1.05rem;
+			opacity: .8;
+
+			&.id {
+				font: 600 1.2rem calibri;
+				opacity: .7;
+			}
+			&.name {
+				display: block;
+				font-weight: bold;
+			}
+			&.location {
+				font-size: .9rem;
+				font-style: italic;
+			}
+		}
+
+		&:hover span {
+			opacity: 1;
+		}
+	}
 }
 
 /* Modal */
