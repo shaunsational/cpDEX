@@ -131,6 +131,18 @@ header.navbar {
 		}	
 	}
 
+	.dropdown-menu {
+		padding-right: 9%;
+		width: 100%;
+
+		a:after {
+			color: var(--bs-gray-500);
+			content: '#' attr(data-value);
+			position: absolute;
+			right: 1em;
+		}
+	}
+
 	#burgerHolder {
 		align-content: center;
 		cursor: pointer;
@@ -332,12 +344,18 @@ aside {
 		.nav-link {
 			font-weight: 500;
 			color: var(--bs-gray-700);
-		
-			.feather {
-				color: inherit;
-                margin-right: .25em;
-                scale: .75;
+
+			.dexId {
+				margin-right: .25em;
+				opacity: .8;
+
+				.feather {
+					color: inherit;
+					margin-right: -.1em;
+					scale: .75;
+				}
 			}
+		
 			&:hover {	
 				background: var(--bs-gray-200);
 				color: var(--bs-gray-900);

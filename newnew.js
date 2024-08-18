@@ -1,3 +1,5 @@
+import { Autocomplete, Sidebar, fetchJSON } from './lib/modules.js';
+
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
@@ -37,4 +39,15 @@ function changePanel(hash) {
 		}
 		//setPanel(e.target.hash); 
 	});	
+	const ac = new Autocomplete($('#pokedexSearch'), {
+		data: dex,
+		maximumItems: 10,
+		threshold: 1,
+		label: 'name',
+		value: 'id',
+		searchValue: true,
+		onSelectItem: ({label, value}) => {
+			$('#pokedexSearch').value = '';
+		}
+	});
 })();
