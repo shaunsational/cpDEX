@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", (async () => {
 	//var events = await fetchJSON('data/events.json');
 	//console.log(events);
 
-	var dex = await fetchJSON('data/dummydex.json');
+	var dex = await fetchJSON('./data/dummydex.json');
 	new Sidebar(dex);
 
 	panels.load(window.location.hash || '#/types');
