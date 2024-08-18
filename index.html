@@ -87,19 +87,37 @@
 						</a>
 					</li>
 				</ul>
-			</div>
-			
-			<div class="pokedex-links">
-				<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted text-uppercase">
-					<!-- TODO - split this into regions, kanto, etc and make collapsible.  IDEALLY it should span the availble vertical space not a set px height -->
+				<h6 class="sidebar-heading mt-4 mb-1 px-3 text-muted text-uppercase">
 					<span>Pokédex</span>
-					<a class="link-secondary" href="#" aria-label="Expand">
+					<a class="link-secondary" href="#" aria-label="Expand" hidden>
 						<span data-feather="plus-circle" class="align-text-bottom"></span>
 					</a>
 				</h6>
-				<ul id="pokedex" class="nav flex-row mb-2">							
-					<!-- FUTURE: use sprites instead of file icon, dex icon (ex: kanto, joenn, sinnoh, etc)? -->
-				</ul>
+			</div>
+			
+			<div class="pokedex-links px-3">
+				<div id="pokedex" class="nav flex-row mb-2">
+					<em class="open">KANTO</em>
+					<ul id="kantoDex" class="nav"></ul>
+					<em>JOHTO</em>
+					<ul id="johtoDex" class="nav" hidden></ul>
+					<em>HOENN</em>
+					<ul id="hoennDex" class="nav" hidden></ul>
+					<em>SINNOH</em>
+					<ul id="sinnohDex" class="nav" hidden></ul>
+					<em>UNOVA</em>
+					<ul id="unovaDex" class="nav" hidden></ul>
+					<em>KALOS</em>
+					<ul id="kalosDex" class="nav" hidden></ul>
+					<em>ALOLA</em>
+					<ul id="alolaDex" class="nav" hidden></ul>
+					<em>GALAR</em>
+					<ul id="galarDex" class="nav" hidden></ul>
+					<em>PALDEA</em>
+					<ul id="paldeaDex" class="nav" hidden></ul>
+					<em>UNKNOWN</em>
+					<ul id="unknownDex" class="nav" hidden></ul>
+				</div>
 			</div>
 
 			<div class="account-links">

@@ -318,6 +318,11 @@ aside {
             bottom: 0;
             top: initial;
 		}
+
+		em:has(+ ul.nav:empty),
+		ul.nav:empty {
+			display: none;
+		}
 	}
 	
 	.nav-item {
@@ -431,6 +436,15 @@ dialog {
 		--sidebar-width:	120px;
 	}
 
+	body {
+		grid-template-areas:
+		"header header"
+		"main main";
+	}
+	body.show-sidebar aside.sidebar {
+		height: 100%;
+	}
+
 	header.navbar  {
 		.title:before {
 			content: '';
@@ -438,6 +452,12 @@ dialog {
 
 		#burgerHolder {
 			display: block;
+
+			&:not(.open):hover #hamburger span:nth-child(1) {
+				top: 1px;
+			}
+		}
+	}
 		}
 	}
 
@@ -446,14 +466,5 @@ dialog {
 		overflow: hidden;
 		transition: height .3s;
 		width: 100%;
-	}
-
-	body {
-		grid-template-areas:
-		"header header"
-		"main main";
-	}
-	body.show-sidebar aside.sidebar {
-		height: 100%;
 	}
 }
