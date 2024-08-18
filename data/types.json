@@ -1,0 +1,305 @@
+{
+	"bug": {
+		"color": 	"#92C92B",
+		"damage":	{
+			"none":		[],
+			"half":		["fairy", "fighting", "fire", "flying", "ghost", "poison", "steel"],
+			"double":	["dark", "grass", "psychic"]
+		},
+		"megas":	{
+			"15": "Beedrill",
+			"127": "Pinsir",
+			"212": "Scizor",
+			"214": "Heracross"
+		},
+		"order":	12,
+		"weather":	"rain"
+	},
+	"dark": {
+		"color": 	"#575467",
+		"damage":	{
+			"none":		[],
+			"half":		["dark", "fairy", "fighting"],
+			"double":	["ghost", "psychic"]
+		},
+		"megas":	{
+			"130": "Gyarados",
+			"229": "Houndoom",
+			"248": "Tyranitar",
+			"302": "Sableye",
+			"319": "Sharpedo",
+			"359": "Absol"
+		},
+		"order":	16,
+		"weather":	"fog"
+	},
+	"dragon": {
+		"color":	"#0566BC",
+		"damage":	{
+			"none":		["fairy"],
+			"half":		["steel"],
+			"double":	["dragon"]
+		},
+		"megas":	{
+			"6": "Charizard (X)",
+			"181": "Ampharos",
+			"254": "Sceptile",
+			"334": "Altaria",
+			"373": "Salamence",
+			"380": "Latias",
+			"381": "Latios",
+			"384": "Rayquaza",
+			"445": "Garchomp"
+		},
+		"order":	15,
+		"weather":	"windy"
+	},
+	"electric": {
+		"color": 	"#FFCE3E",
+		"damage":	{
+			"none":		["ground"],
+			"half":		["dragon", "electric", "grass"],
+			"double":	["flying", "water"]
+		},
+		"megas":	{
+			"181": "Ampharos",
+			"310": "Manectric"
+		},
+		"order":	4,
+		"weather":	"rain"
+	},
+	"fairy": {
+		"color": 	"#EB8EE2",
+		"damage":	{
+			"none":		[],
+			"half":		["fire", "poison", "steel"],
+			"double":	["dark", "dragon", "fighting"]
+		},
+		"megas":	{
+			"282": "Gardevoir",
+			"303": "Mawile",
+			"334": "Altaria",
+			"531": "Audino",
+			"719": "Diancie"
+		},
+		"order":	18,
+		"weather":	"cloudy"
+	},
+	"fighting": {
+		"color": 	"#D23C50",
+		"damage":	{
+			"none":		["ghost"],
+			"half":		["bug", "fairy", "flying", "poison", "psychic"],
+			"double":	["dark", "ice", "normal", "rock", "steel"]
+		},
+		"megas":	{
+			"150": "Mewtwo (X)",
+			"214": "Heracross",
+			"257": "Blaziken",
+			"308": "Medicham",
+			"428": "Lopunny",
+			"448": "Lucario",
+			"475": "Gallade"
+		},
+		"order":	7,
+		"weather":	"cloudy"
+	},
+	"fire": {
+		"color": 	"#F09516",
+		"damage":	{
+			"none":		[],
+			"half":		["dragon", "fire", "rock", "water"],
+			"double":	["bug", "grass", "ice", "steel"]
+		},
+		"megas":	{
+			"6": "Charizard",
+			"229": "Houndoom",
+			"257": "Blaziken",
+			"323": "Camerupt"			
+		},
+		"order":	2,
+		"weather":	"clear"
+	},
+	"flying": {
+		"color": 	"#90AADC",
+		"damage":	{
+			"none":		[],
+			"half":		["electric", "rock", "steel"],
+			"double":	["bug", "fighting", "grass"]
+		},
+		"megas":	{
+			"6": "Charizard (Y)",
+			"18": "Pidgeot",
+			"127": "Pinsir",
+			"142": "Aerodactyl",
+			"373": "Salamence",
+			"384": "Rayquaza"		
+		},
+		"order":	10,
+		"weather":	"windy"
+	},
+	"ghost": {
+		"color": 	"#776BB6",
+		"damage":	{
+			"none":		["normal"],
+			"half":		["dark"],
+			"double":	["ghost", "psychic"]
+		},
+		"megas":	{
+			"94": "Gengar",
+			"302": "Sableye",
+			"354": "Banette"
+		},
+		"order":	14,
+		"weather":	"fog"
+	},
+	"grass": {
+		"color": 	"#35AB5D",
+		"damage":	{
+			"none":		[],
+			"half":		["bug", "dragon", "fire", "flying", "grass", "poison", "steel"],
+			"double":	["ground", "rock", "water"]
+		},
+		"megas":	{
+			"3": "Venusaur",
+			"254": "Sceptile",
+			"460": "Abomasnow"
+		},
+		"order":	5,
+		"weather":	"clear"
+	},
+	"ground": {
+		"color": 	"#D97845",
+		"damage":	{
+			"none":		["flying"],
+			"half":		["bug", "grass"],
+			"double":	["electric", "fire", "poison", "rock", "steel"]
+		},
+		"megas":	{
+			"208": "Steelix",
+			"260": "Swampert",
+			"323": "Camerupt",
+			"383": "Groudon",
+			"445": "Garchomp"
+		},
+		"order":	9,
+		"weather":	"clear"
+	},
+	"ice": {
+		"color": 	"#96D9D6",
+		"damage":	{
+			"none":		[],
+			"half":		["fire", "ice", "steel", "water"],
+			"double":	["dragon", "flying", "grass", "ground"]
+		},
+		"megas":	{
+			"362": "Glalie",
+			"460": "Abomasnow"
+		},
+		"order":	6,
+		"weather":	"snow"
+	},
+	"normal": {
+		"color": 	"#9D9FA0",
+		"damage":	{
+			"none":		["ghost"],
+			"half":		["rock", "steel"],
+			"double":	[]
+		},
+		"megas":	{
+			"18": "Pidgeot", 
+			"115": "Kangaskhan", 
+			"428": "Lopunny", 
+			"531": "Audino"
+		},
+		"order":	1,
+		"weather":	"partly-cloudy"
+	},
+	"poison": {
+		"color": 	"#D24FBB",
+		"damage":	{
+			"none":		["steel"],
+			"half":		["ghost", "ground", "poison", "rock"],
+			"double":	["fairy", "grass"]
+		},
+		"megas":	{
+			"3": "Venusaur",
+			"15": "Beedrill",
+			"94": "Gengar"
+		},
+		"order":	8,
+		"weather":	"cloudy"
+	},
+	"psychic": {
+		"color": 	"#F76E73",
+		"damage":	{
+			"none":		["dark"],
+			"half":		["psychic", "steel"],
+			"double":	["fighting", "poison"]
+		},
+		"megas":	{
+			"65": "Alakazam",
+			"80": "Slowbro",
+			"150": "Mewtwo",
+			"282": "Gardevoir",
+			"308": "Medicham",
+			"376": "Metagross",
+			"380": "Latias",
+			"381": "Latios",
+			"475": "Gallade"
+		},
+		"order":	11,
+		"weather":	"windy"
+	},
+	"rock": {
+		"color": 	"#CDBA6C",
+		"damage":	{
+			"none":		[],
+			"half":		["fighting", "ground", "steel"],
+			"double":	["bug", "fire", "flying", "ice"]
+		},
+		"megas":	{
+			"142": "Aerodactyl",
+			"248": "Tyranitar",
+			"719": "Diancie"
+		},
+		"order":	13,
+		"weather":	"partly-cloudy"
+	},
+	"steel": {
+		"color": 	"#538B9F",
+		"damage":	{
+			"none":		[],
+			"half":		["electric", "fire", "steel", "water"],
+			"double":	["fairy", "ice", "rock"]
+		},
+		"megas":	{
+			"208": "Steelix",
+			"212": "Scizor",
+			"303": "Mawile",
+			"306": "Aggron",
+			"376": "Metagross",
+			"448": "Lucario"			
+		},
+		"order":	17,
+		"weather":	"snow"
+	},
+	"water": {
+		"color": 	"#5092D5",
+		"damage":	{
+			"none":		[],
+			"half":		["dragon", "grass", "water"],
+			"double":	["fire", "ground", "rock"]
+		},
+		"megas":	{
+			"9": "Blastoise",
+			"80": "Slowbro",
+			"130": "Gyarados",
+			"260": "Swampert",
+			"319": "Sharpedo",
+			"382": "Kyogre"
+		},
+		"order":	3,
+		"weather":	"rain"
+	}
+}
