@@ -1,4 +1,4 @@
-import { Autocomplete, Sidebar, fetchJSON } from './lib/modules.js';
+import { Autocomplete, Sidebar, fetchJSON, panelClass } from './lib/modules.js';
 
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
@@ -11,34 +11,84 @@ function delegate_event(event_type, ancestor_element, target_element_selector, l
 	});
 }
 
-function changePanel(hash) {
-	let root = hash.split('/');
-	
-	$$('.nav-link').forEach(a => {a.classList.remove('active');});
-	$('.nav-link[href^="'+hash+'"]').classList.add('active');
+class Panels {
+	constructor() {
+		this.loaded = [];
+		this.classes = {}
+	}
 
-	$$('main article').forEach(a => {a.classList.remove('active');});
-	$('main article#'+root[1]).classList.add('active');
+	load(hash) {
+		let path = hash.split('/'), 
+			panel = path[1];
+
+		if (panel !== 'dex' && this.loaded.includes(panel)) {
+			this.updateNav(path);
+			return true;
+		}
+
+		try {
+			const loader = panelClass(panel);
+			let loaded = new loader(path);
+
+			if (loaded != false) {
+				this.loaded.push(panel);
+				this.updateNav(path);
+				return true;
+			}
+			throw new TypeError('Panel method doesn\'t exist or is returning false');
+			return false;
+		} 
+		catch(err) {
+			console.error('Panel method doesn\'t exist:', panel, err);
+		}
+	}
+
+	updateNav(path) {
+		document.body.classList.remove('show-sidebar');
+		$$('.nav-link').forEach(a => {a.classList.remove('active');});
+		$('.nav-link[href^="#/'+ path[1] +'"]').classList.add('active');
+
+		if (path[1] == 'dex')
+		$('.pokedex-links .nav-link[href="'+ path.join('/') +'"]').classList.add('active');
+
+		$$('main article').forEach(a => {a.classList.remove('active');});
+		$('main article#'+ path[1] ).classList.add('active');
+	}
 }
+let panels = new Panels();
 
-(async () => {
+document.addEventListener("DOMContentLoaded", (async () => {
+	//var events = await fetchJSON('data/events.json');
+	//console.log(events);
+
+	panels.load(window.location.hash || '#/types');
+
+	var dex = await fetchJSON('data/dummydex.json');
+	new Sidebar(dex);
+
 	/* feather:false */
 	$('#burgerHolder').addEventListener('click', function(e){
 		this.classList.toggle('open');
-		document.body.classList.toggle('show-sidebar')
+		document.body.classList.toggle('show-sidebar');
 	});
 
 	feather.replace({ 'aria-hidden': 'true' });
 	
-	delegate_event('click', document, 'a[href^="#/"]', function(e){ 		
+	delegate_event('click', $('.pokedex-links'), 'em', function(e){
+		e.target.classList.toggle('open');
+		e.target.nextElementSibling.toggleAttribute('hidden');
+	});
+
+	delegate_event('click', document, 'a[href^="#/"]', function(e){
 		if (e.target.rel == 'modal') {
 			let modal = e.target.hash.substr(2);
 			$(`#${modal}`).showModal();
 		} else {
-			changePanel(e.target.hash);
+			let loaded = e.target.classList.contains('loaded');
+			panels.load(e.target.hash);
 		}
-		//setPanel(e.target.hash); 
-	});	
+	});
+
 	const ac = new Autocomplete($('#pokedexSearch'), {
 		data: dex,
 		maximumItems: 10,
@@ -50,4 +100,4 @@ function changePanel(hash) {
 			$('#pokedexSearch').value = '';
 		}
 	});
-})();
+})());

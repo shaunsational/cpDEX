@@ -18,24 +18,24 @@
 	--pokemon-steel:	#538B9F;
 	--pokemon-water:	#5092D5;
 	
-	--rgb-bug:		146, 201, 43;
-	--rgb-dark:		87, 84, 103;
-	--rgb-dragon:	5, 102, 188;
-	--rgb-electric:	255, 206, 62;
-	--rgb-fairy: 	235, 142, 226;
-	--rgb-fighting:	210, 60, 80;
-	--rgb-fire:		240, 149, 22;
-	--rgb-flying:	144, 170, 220;
-	--rgb-ghost:	119, 107, 182;
-	--rgb-grass:	53, 171, 93;
-	--rgb-ground:	217, 120, 69;
-	--rgb-ice:		150, 217, 214;
-	--rgb-normal:	157, 159, 160;
-	--rgb-poison:	210, 79, 187;
-	--rgb-psychic:	247, 110, 115;
-	--rgb-rock:		205, 186, 108;
-	--rgb-steel:	83, 139, 159;
-	--rgb-water:	80, 146, 213;
+	--pokergb-bug:      146, 201, 43;
+	--pokergb-dark:     87,  84,  103;
+	--pokergb-dragon:   5,   102, 188;
+	--pokergb-electric: 255, 206, 62;
+	--pokergb-fairy:    235, 142, 226;
+	--pokergb-fighting: 210, 60,  80;
+	--pokergb-fire:     240, 149, 22;
+	--pokergb-flying:   144, 170, 220;
+	--pokergb-ghost:    119, 107, 182;
+	--pokergb-grass:    53,  171, 93;
+	--pokergb-ground:   217, 120, 69;
+	--pokergb-ice:      150, 217, 214;
+	--pokergb-normal:   157, 159, 160;
+	--pokergb-poison:   210, 79,  187;
+	--pokergb-psychic:  247, 110, 115;
+	--pokergb-rock:     205, 186, 108;
+	--pokergb-steel:    83,  139, 159;
+	--pokergb-water:    80,  146, 213;
 	
 	--borderRad:		10px;
 	--navbar-height:	42px;
@@ -388,6 +388,75 @@ main {
 		
 		&.active {
 			display: block;
+		}
+	}
+
+	.type-table {
+		cursor: default;
+		display: grid;
+		gap: 0 0;
+		grid-template-rows: 64px repeat(18, 26px);
+		
+		tr {
+			display: grid;
+			gap: 0 0;
+			grid-template-columns: 64px repeat(18, 1fr);
+				
+			th { 
+				color: #FFF;
+	            font-size: 13px;
+	            font-variant: small-caps;
+				height: 100%;
+				/*opacity: .5;*/
+				text-shadow: 2px 1px 5px #000;
+			}
+			
+			td {
+				align-content: center;
+				min-width: 18px;
+				/*opacity: .5;*/
+				text-align: center;
+			}
+			
+			&:first-child {			
+				th {
+					align-content: center;
+					overflow: hidden;
+					text-align: center;
+					text-overflow: clip;
+					
+					&:first-child {
+						font-size: 30px;
+					}
+					
+					&:not(:first-child) {
+						line-height: unset;
+						padding-top: 4px;
+						text-align: left;
+						text-shadow: -1px 2px 5px #000;
+						transform: rotate(180deg);
+						writing-mode: vertical-rl;
+					}
+				}
+			}
+			
+			&:not(:first-child) {
+				align-content: center;
+				
+				th {
+					align-content: inherit;
+					height: 26px; 
+					padding-right: 4px;
+					text-align: right; 
+				}
+			}
+		}
+		
+		+ legend {
+			display: grid;
+			font-size: 14px;
+			grid-template-columns: 2fr repeat(3, 1.5fr) 1fr;
+			margin-top: 1em;
 		}
 	}
 }
