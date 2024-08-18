@@ -49,7 +49,8 @@ class Panels {
 		$('.nav-link[href^="#/'+ path[1] +'"]').classList.add('active');
 
 		if (path[1] == 'dex')
-		$('.pokedex-links .nav-link[href="'+ path.join('/') +'"]').classList.add('active');
+		try { $('.pokedex-links .nav-link[href="'+ path.join('/') +'"]').classList.add('active'); } 
+		catch(err) { console.error('Couldn\'t highlight nav link: ', path.join('/'), err); }
 
 		$$('main article').forEach(a => {a.classList.remove('active');});
 		$('main article#'+ path[1] ).classList.add('active');
@@ -61,10 +62,10 @@ document.addEventListener("DOMContentLoaded", (async () => {
 	//var events = await fetchJSON('data/events.json');
 	//console.log(events);
 
-	panels.load(window.location.hash || '#/types');
-
 	var dex = await fetchJSON('data/dummydex.json');
 	new Sidebar(dex);
+
+	panels.load(window.location.hash || '#/types');
 
 	/* feather:false */
 	$('#burgerHolder').addEventListener('click', function(e){
