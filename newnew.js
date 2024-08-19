@@ -1,5 +1,6 @@
 import { Autocomplete, Sidebar, fetchJSON, panelClass } from './lib/modules.js';
 
+const DexPath = 'pokemon';
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
@@ -22,7 +23,7 @@ class Panels {
 			panel = path[1];
 
 		if (this.loaded.includes(panel)) {
-			if (panel == 'dex') {
+			if (panel == DexPath) {
 				this.classes.get('dex').updateMon(dex[path[2]]);
 			}
 			this.updateNav(path);
@@ -37,7 +38,7 @@ class Panels {
 				this.loaded.push(panel);
 				this.classes.set(panel, loaded);
 				this.updateNav(path);
-				if (panel == 'dex') {
+				if (panel == DexPath) {
 					loaded.updateMon(dex[path[2]])
 				}
 				return true;
@@ -46,7 +47,7 @@ class Panels {
 			return false;
 		} 
 		catch(err) {
-			console.error('Panel method doesn\'t exist:', panel, err);
+			console.error('Panel method doesn\'t exist, or is broken:', panel, err);
 		}
 	}
 
@@ -55,7 +56,7 @@ class Panels {
 		$$('.nav-link').forEach(a => {a.classList.remove('active');});
 		$('.nav-link[href^="#/'+ path[1] +'"]').classList.add('active');
 
-		if (path[1] == 'dex')
+		if (path[1] == DexPath)
 		try { $('.pokedex-links .nav-link[href="'+ path.join('/') +'"]').classList.add('active'); } 
 		catch(err) { console.error('Couldn\'t highlight nav link: ', path.join('/'), err); }
 
@@ -64,10 +65,10 @@ class Panels {
 	}
 }
 let panels = new Panels();
-let dex = await fetchJSON('./data/pokedex.json');
 
 document.addEventListener("DOMContentLoaded", (async () => {
-	new Sidebar(dex);
+	await Dex.load()
+	new Sidebar(Dex.simple(), DexPath);
 
 	panels.load(window.location.hash || '#/types');
 
@@ -88,7 +89,6 @@ document.addEventListener("DOMContentLoaded", (async () => {
 			let modal = e.target.hash.substr(2);
 			$(`#${modal}`).showModal();
 		} else {
-			let loaded = e.target.classList.contains('loaded');
 			panels.load(e.target.hash);
 		}
 	});
@@ -99,6 +99,7 @@ document.addEventListener("DOMContentLoaded", (async () => {
 		threshold: 1,
 		label: 'name',
 		value: 'id',
+		linkPath: DexPath,
 		searchValue: true,
 		onSelectItem: ({label, value}) => {
 			$('#pokedexSearch').value = '';
