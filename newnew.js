@@ -1,4 +1,4 @@
-import { Autocomplete, Sidebar, fetchJSON, panelClass } from './lib/modules.js';
+import { Autocomplete, Dex, Sidebar, fetchJSON, panelClass } from './lib/modules.js';
 
 const DexPath = 'pokemon';
 const $ = document.querySelector.bind(document);
@@ -24,7 +24,7 @@ class Panels {
 
 		if (this.loaded.includes(panel)) {
 			if (panel == DexPath) {
-				this.classes.get('dex').updateMon(dex[path[2]]);
+				this.classes.get(DexPath).updateMon(Dex.find(path[2]));
 			}
 			this.updateNav(path);
 			return true;
@@ -39,7 +39,7 @@ class Panels {
 				this.classes.set(panel, loaded);
 				this.updateNav(path);
 				if (panel == DexPath) {
-					loaded.updateMon(dex[path[2]])
+					loaded.updateMon(Dex.find(path[2]));
 				}
 				return true;
 			}
@@ -93,8 +93,16 @@ document.addEventListener("DOMContentLoaded", (async () => {
 		}
 	});
 
+	delegate_event('click', document, '#pokemon h3', function(e){
+		e.target.classList.toggle('hide');
+	});
+
+	delegate_event('click', document, '#pokemon h3.hide + div', function(e){
+		e.target.previousElementSibling.classList.toggle('hide');
+	});
+
 	const ac = new Autocomplete($('#pokedexSearch'), {
-		data: dex,
+		data: Dex.simple(),
 		maximumItems: 10,
 		threshold: 1,
 		label: 'name',
