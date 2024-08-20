@@ -80,7 +80,7 @@ body {
 	display: inline-block;
 	font-size: .5em;
 	font-variant: all-small-caps;
-	margin: -5px 0 0 11px;
+	margin: 0 0 0 11px;
 	padding: 2px 10px 5px 10px;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, .75);
 	vertical-align: middle;	
@@ -422,6 +422,10 @@ main {
 		&.active {
 			display: block;
 		}
+
+		h1 {
+			margin-bottom: 1.5rem;
+		}
 	}
 
 	.type-table {
@@ -499,8 +503,8 @@ main {
 
 		> div:nth-child(odd) {
             border-right: 1px solid var(--bs-gray-800);
-            margin-right: 15px;
-            padding: 15px 15px 15px 0;
+            margin-right: 20px;
+            padding: 15px 25px 15px 0;
             text-align: center;
 		}
 		> div:nth-child(even) {
@@ -579,6 +583,8 @@ main {
 		margin: 1em 0 0 0;
 		text-decoration: none;
 
+		* { pointer-events: none; }
+
 		span {
 			color: var(--bs-gray-700);
 			font-size: 1.05rem;
@@ -610,6 +616,10 @@ main {
 			.types {
 				position: absolute;
 				right: 0;
+
+				tag {
+					margin-top: -5px;
+				}
 			}
 		}
 
@@ -617,7 +627,7 @@ main {
 			display: grid;
 			font-variant: all-small-caps;
 			font-size: 1.75rem;
-			gap: 25px 5px;
+			gap: 30px 5px;
 			grid-template-columns: repeat(3, 1fr);
 			
 			div {
@@ -687,6 +697,27 @@ main {
 			}
 		}
 
+		.regionalPokemon {
+			align-items: center;
+			display: flex;
+			margin-top: 1rem;
+
+			.feather { 
+				height: 24px;
+				margin: 0 1em 0 1rem;
+				width: 24px;
+			}
+
+			p { margin: 0; }
+
+			&:has(#region:empty) {
+				display: none;
+			}
+			#region {
+				font-weight: 550;
+			}
+		}
+
 		#megas {
 			display: grid;
 			gap: 10px;
@@ -702,11 +733,6 @@ main {
 				text-align: center;
 			    text-decoration: none;
 			    transition: all .5s;
-				
-				span {
-					position: relative;
-					z-index: 9999;
-				}
 				
 				&:hover i {		
 					&:before,
@@ -727,8 +753,12 @@ main {
 						opacity: .25;
 						position: absolute;
 						width: 100%; height: 100%;
-						z-index: 1; 
 					}
+				}
+
+				span {
+					position: relative;
+					z-index: 1;
 				}
 				
 				&[data-type="bug"] i:before		 { background: var(--pokemon-bug); }
@@ -832,7 +862,7 @@ main {
 		}
 
 		h3 {
-			cursor: zoom-out;
+			&:has(+ div) { cursor: zoom-out; }
 			margin-top: 1rem;
 
 			+ div {
@@ -885,6 +915,17 @@ main {
 						text-align: center;						
 					}
 				}
+			}
+		}
+
+		.effectiveness {
+			margin-top: 1em;
+
+			dl:has(dd:empty) {
+				display: none;
+			}
+			dt, dd {
+				display: inline-block;
 			}
 		}
 

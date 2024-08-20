@@ -1,6 +1,5 @@
 import { Autocomplete, Dex, Sidebar, fetchJSON, panelClass } from './lib/modules.js';
 
-const DexPath = 'pokemon';
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
@@ -23,8 +22,8 @@ class Panels {
 			panel = path[1];
 
 		if (this.loaded.includes(panel)) {
-			if (panel == DexPath) {
-				this.classes.get(DexPath).updateMon(Dex.find(path[2]));
+			if (panel == Dex.path) {
+				this.classes.get(Dex.path).updateMon(Dex.find(path[2]));
 			}
 			this.updateNav(path);
 			return true;
@@ -38,7 +37,7 @@ class Panels {
 				this.loaded.push(panel);
 				this.classes.set(panel, loaded);
 				this.updateNav(path);
-				if (panel == DexPath) {
+				if (panel == Dex.path) {
 					loaded.updateMon(Dex.find(path[2]));
 				}
 				return true;
@@ -56,7 +55,7 @@ class Panels {
 		$$('.nav-link').forEach(a => {a.classList.remove('active');});
 		$('.nav-link[href^="#/'+ path[1] +'"]').classList.add('active');
 
-		if (path[1] == DexPath)
+		if (path[1] == Dex.path)
 		try { $('.pokedex-links .nav-link[href="'+ path.join('/') +'"]').classList.add('active'); } 
 		catch(err) { console.error('Couldn\'t highlight nav link: ', path.join('/'), err); }
 
@@ -68,7 +67,7 @@ let panels = new Panels();
 
 document.addEventListener("DOMContentLoaded", (async () => {
 	await Dex.load()
-	new Sidebar(Dex.simple(), DexPath);
+	new Sidebar(Dex.simple(), Dex.path);
 
 	panels.load(window.location.hash || '#/types');
 
@@ -84,7 +83,15 @@ document.addEventListener("DOMContentLoaded", (async () => {
 		e.target.nextElementSibling.toggleAttribute('hidden');
 	});
 
-	delegate_event('click', document, 'a[href^="#/"]', function(e){
+	delegate_event('click', document, `#${Dex.path} h3`, function(e){
+		e.target.classList.toggle('hide');
+	});
+
+	delegate_event('click', document, `#${Dex.path} h3.hide + div`, function(e){
+		e.target.previousElementSibling.classList.toggle('hide');
+	});
+
+	delegate_event('click', document.body, 'a[href^="#/"]', function(e){
 		if (e.target.rel == 'modal') {
 			let modal = e.target.hash.substr(2);
 			$(`#${modal}`).showModal();
@@ -93,21 +100,13 @@ document.addEventListener("DOMContentLoaded", (async () => {
 		}
 	});
 
-	delegate_event('click', document, '#pokemon h3', function(e){
-		e.target.classList.toggle('hide');
-	});
-
-	delegate_event('click', document, '#pokemon h3.hide + div', function(e){
-		e.target.previousElementSibling.classList.toggle('hide');
-	});
-
 	const ac = new Autocomplete($('#pokedexSearch'), {
 		data: Dex.simple(),
 		maximumItems: 10,
 		threshold: 1,
 		label: 'name',
 		value: 'id',
-		linkPath: DexPath,
+		linkPath: Dex.path,
 		searchValue: true,
 		onSelectItem: ({label, value}) => {
 			$('#pokedexSearch').value = '';
