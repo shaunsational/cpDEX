@@ -48,6 +48,11 @@
 	suffix: "";
 	pad: "0" 3;
 }
+@keyframes loadingDone {
+	0%		{ opacity: 1;	 }
+	99%		{ opacity: 0;	 }
+	100%	{ display: none; }
+}
 
 /* UNTIL I HAVE ACCOUNT STUFF HIDE IT */
 .account {
@@ -103,6 +108,18 @@ body {
 	&.rock		{ background: var(--pokemon-rock); }
 	&.steel		{ background: var(--pokemon-steel); }
 	&.water		{ background: var(--pokemon-water); }
+}
+
+#preload {
+	background: url(./images/loading.gif) center center no-repeat var(--bs-gray-800);
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 999999;
+
+	&.done {
+		animation: loadingDone .65s ease-in forwards;
+	}
 }
 
 /* Main Nav */
