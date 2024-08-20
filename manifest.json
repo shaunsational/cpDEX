@@ -1,0 +1,20 @@
+{
+  "short_name": "cpDEX",
+  "name": "Pokémon GO · cpDEX",
+  "icons": [
+    {
+      "src": "./images/pokeball.gif",
+      "sizes": "120x120",
+      "type": "image/gif"
+    },
+    {
+      "src": "./images/pokeball512.gif",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#495057",
+  "background_color": "#E9ECEF"
+}
