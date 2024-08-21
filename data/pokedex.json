@@ -23112,7 +23112,7 @@
 			"Attack":	{},
 			"Defense":	{},
 			"Speed":	{}
-		}
+		},
 		"cp_range":	[
 			{ "level": 1,	"min": 38,		"max": 44 },
 			{ "level": 2,	"min": 119,		"max": 140 },
