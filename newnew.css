@@ -693,7 +693,7 @@ main {
 					width: 32px;
 				}
 
-				.cp { margin: 0 3px 0 7px; }
+				.cp { font-variant: normal; margin: 0 3px 0 7px; }
 				
 				.boost {
 					position: absolute;
