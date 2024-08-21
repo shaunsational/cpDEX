@@ -25275,8 +25275,12 @@
 		"released":	false,
 		"shiny":	false,
 		"forms":	{
-			"West Sea": {},
-			"East Sea": {}
+			"West Sea": {
+				"region": "Western Hemisphere"
+			},
+			"East Sea": {
+				"region": "Eastern Hemisphere"
+			}
 		},
 		"cp_range":	[
 			{ "level": 1,	"min": 12,		"max": 16 },
@@ -26299,9 +26303,10 @@
 		"id":		439,
 		"name":		"Mime Jr.",
 		"type":		["psychic","fairy"],
-		"origin":	[],
+		"origin":	["eggs"],
 		"released":	true,
 		"shiny":	true,
+		"region":	"Europe (in 5km eggs)",
 		"cp_range":	[
 			{ "level": 1,	"min": 12,		"max": 15 },
 			{ "level": 2,	"min": 38,		"max": 48 },
@@ -28884,6 +28889,7 @@
 		"origin":	[],
 		"released":	true,
 		"shiny":	true,
+		"region":	"Asia-Pacific",
 		"cp_range":	[
 			{ "level": 1,	"min": 30,		"max": 35 },
 			{ "level": 2,	"min": 95,		"max": 111 },
@@ -28944,6 +28950,7 @@
 		"origin":	[],
 		"released":	true,
 		"shiny":	true,
+		"region":	"Europe, Middle East, Asia and Africa",
 		"cp_range":	[
 			{ "level": 1,	"min": 37,		"max": 43 },
 			{ "level": 2,	"min": 117,		"max": 135 },
@@ -29004,6 +29011,7 @@
 		"origin":	[],
 		"released":	true,
 		"shiny":	true,
+		"region":	"North and South Americas and Greenland",
 		"cp_range":	[
 			{ "level": 1,	"min": 39,		"max": 45 },
 			{ "level": 2,	"min": 123,		"max": 142 },
@@ -29660,7 +29668,7 @@
 	"493":	{
 		"id":		493,
 		"name":		"Arceus",
-		"type":		["bug"],
+		"type":		["normal"],
 		"origin":	[],
 		"released":	false,
 		"shiny":	false,
