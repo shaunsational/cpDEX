@@ -170,9 +170,6 @@ header.navbar {
 		white-space: nowrap;
 		
 		&:before {
-			content: 'Pokémon GO • ';
-		}
-		&:after {
 			content: '';
 			background: url(./images/pokeball.gif) no-repeat;
 			background-size: contain;
@@ -180,6 +177,9 @@ header.navbar {
 			left: 1rem;
 			position: absolute;
 			width: 20px; height: 20px;
+		}
+		&:after {
+			content: ' • Pokémon GO';
 		}
 	}
 	
@@ -1076,7 +1076,7 @@ dialog {
 	}
 
 	header.navbar  {
-		.title:before {
+		.title:after {
 			content: '';
 		}
 
