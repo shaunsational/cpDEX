@@ -23100,7 +23100,7 @@
 			{ "level": 50,	"min": 3223,	"max": 3691 }
 		]
 	},
-	"386-Normal":	{
+	"386":	{
 		"id":		386,
 		"name":		"Deoxys",
 		"type":		["psychic"],
