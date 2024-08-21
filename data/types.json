@@ -22,12 +22,14 @@
 			"half":		["dark", "fairy", "fighting"],
 			"double":	["ghost", "psychic"]
 		},
+		"no-mega-yet": {
+			"319": "Sharpedo"
+		},
 		"megas":	{
 			"130": "Gyarados",
 			"229": "Houndoom",
 			"248": "Tyranitar",
 			"302": "Sableye",
-			"319": "Sharpedo",
 			"359": "Absol"
 		},
 		"order":	16,
@@ -75,11 +77,13 @@
 			"half":		["fire", "poison", "steel"],
 			"double":	["dark", "dragon", "fighting"]
 		},
+		"no-mega-yet": {
+			"303": "Mawile",
+			"531": "Audino"
+		},
 		"megas":	{
 			"282": "Gardevoir",
-			"303": "Mawile",
 			"334": "Altaria",
-			"531": "Audino",
 			"719": "Diancie"
 		},
 		"order":	18,
@@ -92,14 +96,16 @@
 			"half":		["bug", "fairy", "flying", "poison", "psychic"],
 			"double":	["dark", "ice", "normal", "rock", "steel"]
 		},
-		"megas":	{
+		"no-mega-yet": {
 			"150": "Mewtwo (X)",
+			"475": "Gallade"
+		},
+		"megas":	{
 			"214": "Heracross",
 			"257": "Blaziken",
 			"308": "Medicham",
 			"428": "Lopunny",
-			"448": "Lucario",
-			"475": "Gallade"
+			"448": "Lucario"
 		},
 		"order":	7,
 		"weather":	"cloudy"
@@ -111,11 +117,13 @@
 			"half":		["dragon", "fire", "rock", "water"],
 			"double":	["bug", "grass", "ice", "steel"]
 		},
+		"no-mega-yet": {
+			"323": "Camerupt"
+		},
 		"megas":	{
 			"6": "Charizard",
 			"229": "Houndoom",
-			"257": "Blaziken",
-			"323": "Camerupt"			
+			"257": "Blaziken"
 		},
 		"order":	2,
 		"weather":	"clear"
@@ -133,7 +141,7 @@
 			"127": "Pinsir",
 			"142": "Aerodactyl",
 			"373": "Salamence",
-			"384": "Rayquaza"		
+			"384": "Rayquaza"
 		},
 		"order":	10,
 		"weather":	"windy"
@@ -175,10 +183,12 @@
 			"half":		["bug", "grass"],
 			"double":	["electric", "fire", "poison", "rock", "steel"]
 		},
+		"no-mega-yet": {
+			"323": "Camerupt"
+		},
 		"megas":	{
 			"208": "Steelix",
 			"260": "Swampert",
-			"323": "Camerupt",
 			"383": "Groudon",
 			"445": "Garchomp"
 		},
@@ -206,11 +216,13 @@
 			"half":		["rock", "steel"],
 			"double":	[]
 		},
+		"no-mega-yet": {
+			"531": "Audino"
+		},
 		"megas":	{
 			"18": "Pidgeot", 
 			"115": "Kangaskhan", 
-			"428": "Lopunny", 
-			"531": "Audino"
+			"428": "Lopunny"
 		},
 		"order":	1,
 		"weather":	"partly-cloudy"
@@ -237,16 +249,19 @@
 			"half":		["psychic", "steel"],
 			"double":	["fighting", "poison"]
 		},
+		"no-mega-yet": {
+			"150": "Mewtwo (X)",
+			"150": "Mewtwo (Y)",
+			"376": "Metagross",
+			"475": "Gallade"
+		},
 		"megas":	{
 			"65": "Alakazam",
 			"80": "Slowbro",
-			"150": "Mewtwo",
 			"282": "Gardevoir",
 			"308": "Medicham",
-			"376": "Metagross",
 			"380": "Latias",
-			"381": "Latios",
-			"475": "Gallade"
+			"381": "Latios"
 		},
 		"order":	11,
 		"weather":	"windy"
@@ -273,13 +288,15 @@
 			"half":		["electric", "fire", "steel", "water"],
 			"double":	["fairy", "ice", "rock"]
 		},
+		"no-mega-yet": {
+			"303": "Mawile",
+			"376": "Metagross"
+		},
 		"megas":	{
 			"208": "Steelix",
 			"212": "Scizor",
-			"303": "Mawile",
 			"306": "Aggron",
-			"376": "Metagross",
-			"448": "Lucario"			
+			"448": "Lucario"
 		},
 		"order":	17,
 		"weather":	"snow"
@@ -291,12 +308,14 @@
 			"half":		["dragon", "grass", "water"],
 			"double":	["fire", "ground", "rock"]
 		},
+		"no-mega-yet": {
+			"319": "Sharpedo"
+		},
 		"megas":	{
 			"9": "Blastoise",
 			"80": "Slowbro",
 			"130": "Gyarados",
 			"260": "Swampert",
-			"319": "Sharpedo",
 			"382": "Kyogre"
 		},
 		"order":	3,
