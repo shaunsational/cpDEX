@@ -112,4 +112,6 @@ document.addEventListener("DOMContentLoaded", (async () => {
 			$('#pokedexSearch').value = '';
 		}
 	});
+
+	$('#preload').classList.add('done');
 })());
