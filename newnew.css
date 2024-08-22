@@ -36,6 +36,15 @@
 	--pokergb-rock:     205, 186, 108;
 	--pokergb-steel:    83,  139, 159;
 	--pokergb-water:    80,  146, 213;
+
+	--note-error-bg:	255 156 156;
+	--note-error-text:	96 2 2;
+	--note-warn-bg:		255 230 156;
+	--note-warn-text:	79 59 1;
+	--note-info-bg:		209 242 255;
+	--note-info-text:	1 91 126;
+	--note-bg:			232, 232, 232;
+	--note-text:		63, 63, 63;
 	
 	--borderRad:		10px;
 	--navbar-height:	42px;
@@ -764,11 +773,13 @@ main {
 			}
 		}
 
+		#pokenotes {margin: auto -1rem;}
 		.pokenote {
 			align-items: center;
 			display: grid;
 			grid-template-columns: auto 1fr;
 			margin-top: 1rem;
+			padding: .5em;
 
 			+ .pokenote {
 				margin-top: .5rem;
@@ -776,7 +787,7 @@ main {
 
 			.feather { 
 				height: 24px;
-				margin: 0 1em 0 1rem;
+				margin: 0 .5rem;
 				width: 24px;
 			}
 
@@ -788,6 +799,26 @@ main {
 			}
 			#region {
 				font-weight: 550;
+			}
+
+			&.not-released {
+				background: rgba(var(--note-error-bg));
+				color: rgb(var(--note-error-text));
+			}
+
+			&.warning {
+				background: rgba(var(--note-warn-bg));
+				color: rgb(var(--note-warn-text));
+			}
+
+			&.regional {
+				background: rgba(var(--note-info-bg));
+				color: rgb(var(--note-info-text));
+			}
+
+			&.general {
+				background: rgba(var(--note-bg));
+				color: rgb(var(--note-text));
 			}
 		}
 
