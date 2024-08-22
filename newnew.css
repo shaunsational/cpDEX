@@ -428,6 +428,7 @@ aside.sidebar {
             top: initial;
 		}
 
+		em:not(.open) + ul,
 		em:has(+ ul.nav:empty),
 		ul.nav:empty {
 			display: none;

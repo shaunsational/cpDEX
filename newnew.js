@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", (async () => {
 	
 	delegate_event('click', $('.pokedex-links'), 'em', function(e){
 		e.target.classList.toggle('open');
-		e.target.nextElementSibling.toggleAttribute('hidden');
 	});
 
 	delegate_event('click', document, `#${Dex.path} h3`, function(e){
