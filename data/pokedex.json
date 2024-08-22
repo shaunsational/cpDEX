@@ -33124,7 +33124,7 @@
 			"Blue Stripe":	{
 				"region":	"Western Hemisphere"
 			},
-			"White Stripe":	{},
+			"White Stripe":	{}
 		},
 		"cp_range":	[
 			{ "level": 1,	"min": 24,		"max": 29 },
