@@ -54342,7 +54342,7 @@
 		"origin":	[],
 		"released":	false,
 		"shiny":	false,
-		"region":	"CP values are false as I could not find any, they are just copied from Basculin",
+		"pokenote":	"CP values are false as I could not find any, they are just copied from Basculin",
 		"cp_range":	[
 			{ "level": 1,	"min": 24,		"max": 29 },
 			{ "level": 2,	"min": 77,		"max": 92 },

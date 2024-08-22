@@ -763,9 +763,11 @@ main {
 			}
 		}
 
-		.regionalPokemon {
+		.regionalPokemon,
+		#pokenote {
 			align-items: center;
-			display: flex;
+			display: grid;
+			grid-template-columns: auto 1fr;
 			margin-top: 1rem;
 
 			.feather { 
@@ -776,7 +778,8 @@ main {
 
 			p { margin: 0; }
 
-			&:has(#region:empty) {
+			&:has(#region:empty),
+			&:has(p:empty) {
 				display: none;
 			}
 			#region {
