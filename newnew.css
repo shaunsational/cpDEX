@@ -82,6 +82,26 @@ body {
 }
 
 /* Components */
+.banner {
+    background: linear-gradient(to bottom, rgba(0,0,0,.25), transparent);
+    margin: -.5rem -1rem .5rem -1rem;
+    padding: .5rem 1rem;
+    position: sticky;
+    top: var(--navbar-height);
+    z-index: 7000;	
+
+	&:has(#currentForm:empty) {
+		display: none;
+	}
+
+	#currentForm {
+		background: transparent;
+		border: 0;
+		cursor: pointer;
+		font-size: inherit;
+	}
+}
+
 .types tag {
 	border-radius: 7px;
 	color: rgba(255, 255, 255, .9);
