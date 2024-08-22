@@ -5,12 +5,14 @@
     {
       "src": "./images/pokeball.gif",
       "sizes": "120x120",
-      "type": "image/gif"
+      "type": "image/gif",
+      "purpose": "maskable"
     },
     {
       "src": "./images/pokeball512.gif",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/gif",
+      "purpose": "maskable"
     }
   ],
   "start_url": ".",
