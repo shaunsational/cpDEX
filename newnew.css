@@ -794,7 +794,7 @@ main {
 		#megas {
 			display: grid;
 			gap: 10px;
-			grid-template-columns: repeat(6, 1fr);
+			grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 			margin: -.5em auto .5em auto;
 
 			.mega-card {
@@ -1145,10 +1145,6 @@ dialog {
 			}
 
 			h3.hide + div.mega-buddies { max-height:105px; }
-
-			#megas {
-				grid-template-columns: repeat(3, 1fr);
-			}
 
 			.grid-table {
 				aside,
