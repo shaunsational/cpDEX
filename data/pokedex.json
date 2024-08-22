@@ -60756,5 +60756,161 @@
 			{ "level": 49,	"min": 3923,	"max": 4438 },
 			{ "level": 50,	"min": 3970,	"max": 4491 }
 		]
+	},
+	"1009":	{
+		"id":		1009,
+		"name":		"Walking Wake",
+		"type":		["water","dragon"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1010":	{
+		"id":		1010,
+		"name":		"Iron Leaves",
+		"type":		["grass","psychic"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1011":	{
+		"id":		1011,
+		"name":		"Dipplin",
+		"type":		["grass","dragon"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1012":	{
+		"id":		1012,
+		"name":		"Poltchageist",
+		"type":		["grass","ghost"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1013":	{
+		"id":		1013,
+		"name":		"Sinistcha",
+		"type":		["grass","ghost"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1014":	{
+		"id":		1014,
+		"name":		"Okidogi",
+		"type":		["poison","fighting"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1015":	{
+		"id":		1015,
+		"name":		"Munkidori",
+		"type":		["poison","psychic"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1016":	{
+		"id":		1016,
+		"name":		"Fezandipiti",
+		"type":		["poison","fairy"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1017":	{
+		"id":		1017,
+		"name":		"Ogerpon",
+		"type":		["grass"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false,
+		"default":	"Teal Mask",
+		"forms":	{
+			"Teal Mask": {
+				"type":	["grass"]
+			},
+			"Wellspring Mask": {
+				"type":	["grass","water"]
+			},
+			"Hearthflame Mask": {
+				"type":	["grass","fire"]
+			},
+			"Cornerstone Mask": {
+				"type":	["grass","rock"]
+			}
+		}
+	},
+	"1018":	{
+		"id":		1018,
+		"name":		"Archaludon",
+		"type":		["steel","dragon"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1019":	{
+		"id":		1019,
+		"name":		"Hydrapple",
+		"type":		["grass","dragon"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1020":	{
+		"id":		1020,
+		"name":		"Gouging Fire",
+		"type":		["fire","dragon"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1021":	{
+		"id":		1021,
+		"name":		"Raging Bolf",
+		"type":		["electric","dragon"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1022":	{
+		"id":		1022,
+		"name":		"Iron Boulder",
+		"type":		["rock","psychic"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1023":	{
+		"id":		1023,
+		"name":		"Iron Crown",
+		"type":		["steel","psychic"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
+	},
+	"1024":	{
+		"id":		1024,
+		"name":		"Terapagos",
+		"type":		["normal"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false,
+		"default":	"Normal",
+		"forms":	{
+			"Normal":	{},
+			"Terastal":	{}
+		}
+	},
+	"1025":	{
+		"id":		1025,
+		"name":		"Pecharunt",
+		"type":		["poison","ghost"],
+		"origin":	[],
+		"released":	false,
+		"shiny":	false
 	}
 }
