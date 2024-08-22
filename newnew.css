@@ -763,12 +763,15 @@ main {
 			}
 		}
 
-		.regionalPokemon,
-		#pokenote {
+		.pokenote {
 			align-items: center;
 			display: grid;
 			grid-template-columns: auto 1fr;
 			margin-top: 1rem;
+
+			+ .pokenote {
+				margin-top: .5rem;
+			}
 
 			.feather { 
 				height: 24px;
