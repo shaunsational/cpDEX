@@ -250,9 +250,15 @@ header.navbar {
 
 		li {
 			position: relative;
-			.active {
-				background: var(--bs-primary-bg-subtle);
+			a {
 				color: var(--bs-dropdown-link-color);
+				text-decoration: none;
+			}
+			&.active {
+				background: var(--bs-primary-bg-subtle);
+				a {
+					color: var(--bs-dropdown-link-color);
+				}
 			}
 		}
 	}

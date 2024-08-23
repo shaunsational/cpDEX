@@ -53,8 +53,9 @@ document.addEventListener("DOMContentLoaded", (async () => {
 		value: 'id',
 		linkPath: Dex.path,
 		searchValue: true,
-		onSelectItem: ({label, value}) => {
+		onSelectItem: ({label, value, target}) => {
 			$('#pokedexSearch').value = '';
+			target.click();
 		}
 	});
 
