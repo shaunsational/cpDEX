@@ -235,11 +235,10 @@ header.navbar {
 				color: rgba(0, 0, 0, .75);
 				opacity: 1; /* Firefox */
 			}
-		}	
+		}
 	}
 
 	.dropdown-menu {
-		padding-right: 9%;
 		width: 100%;
 
 		a:after {
@@ -247,6 +246,14 @@ header.navbar {
 			content: '#' attr(data-value);
 			position: absolute;
 			right: 1em;
+		}
+
+		li {
+			position: relative;
+			.active {
+				background: var(--bs-primary-bg-subtle);
+				color: var(--bs-dropdown-link-color);
+			}
 		}
 	}
 
