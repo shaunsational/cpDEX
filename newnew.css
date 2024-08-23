@@ -98,7 +98,7 @@ body {
     padding: .5rem 1rem;
     position: sticky;
     top: var(--navbar-height);
-    z-index: 7000;	
+    z-index: 6000;	
 
 	&:has(#currentForm:empty) {
 		display: none;
@@ -394,7 +394,7 @@ aside.sidebar {
 	padding-top: calc(var(--navbar-height) + .5em);
 	position: fixed;
 	width: var(--sidebar-width);
-	z-index: 100;
+	z-index: 7000;
 
 	#pokedex {
 		> em, > ul, > ul li {
