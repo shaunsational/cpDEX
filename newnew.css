@@ -705,6 +705,11 @@ main {
 	}
 
 	#pokemon {
+		&.mega {
+			.mega-hide {
+				display: none!important;
+			}
+		}
 		#mon-name {
 			position: relative;
 			
