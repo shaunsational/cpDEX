@@ -514,6 +514,11 @@ main {
 
 		h1 {
 			margin-bottom: 1.5rem;
+			.dexID {
+				font-weight: bolder;
+				margin-right: .2em;
+				opacity: .4;
+			}
 		}
 	}
 
@@ -586,6 +591,7 @@ main {
 		}
 	}
 
+	#weather p { margin-top: -.5rem; }
 	.weather-grid {
 		display: grid;
 		grid-template-columns: auto 1fr;
@@ -1143,8 +1149,17 @@ dialog {
 		"header header"
 		"main main";
 	}
+
+	aside.sidebar {
+		height: 0;
+		overflow: hidden;
+		padding-top: 0;
+		transition: height .3s;
+		width: 100%;
+	}
 	body.show-sidebar aside.sidebar {
 		height: 100%;
+		padding-top: calc(var(--navbar-height) + .5em);
 	}
 
 	header.navbar  {
@@ -1221,12 +1236,5 @@ dialog {
 				}
 			}
 		}
-	}
-
-	aside.sidebar {
-		height: 0;
-		overflow: hidden;
-		transition: height .3s;
-		width: 100%;
 	}
 }
