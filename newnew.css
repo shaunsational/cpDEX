@@ -704,6 +704,9 @@ main {
 		}
 	}
 
+	#codes a {
+	}
+
 	#pokemon {
 		&.mega {
 			.mega-hide {
