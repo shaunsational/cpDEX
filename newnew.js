@@ -45,6 +45,12 @@ document.addEventListener("DOMContentLoaded", (async () => {
 		}
 	});
 
+	$('#pokemon').addEventListener('click', function(e){
+		if (e.target.closest('a[href^="#/"]')) {
+			Panel.load(e.target.closest('a[href^="#/"]').hash);
+		}
+	});
+
 	const ac = new Autocomplete($('#pokedexSearch'), {
 		data: Dex.simple(),
 		maximumItems: 10,
