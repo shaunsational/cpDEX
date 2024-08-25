@@ -853,16 +853,14 @@ main {
 			margin-top: 1em;
 
 			#sprite {
-				position: relative;
+				text-align: center;
 				> img:first-child { width: 100%; }
 
 				.shiny-toggle {
-					cursor: pointer;
-					opacity: .2;
-					position: absolute;
-					right: 0;
-					top: 0;
-					width: 30px;
+                    cursor: pointer;
+                    margin-left: .5em;
+                    opacity: .2;
+                    width: 30px;
 				}
 
 				&.shiny .shiny-toggle {
