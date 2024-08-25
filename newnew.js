@@ -49,15 +49,6 @@ document.addEventListener("DOMContentLoaded", (async () => {
 		if (e.target.closest('a[href^="#/"]')) {
 			Panel.load(e.target.closest('a[href^="#/"]').hash);
 		}
-
-		if (e.target.classList.contains('shiny-toggle')) {
-			console.log(e.target);
-			e.target.parentNode.classList.toggle('shiny');
-
-			let img = e.target.previousElementSibling;
-			img.src = (e.target.parentNode.classList.contains('shiny')) ? img.dataset.shiny : img.dataset.sprite;
-
-		}
 	});
 
 	const ac = new Autocomplete($('#pokedexSearch'), {

@@ -853,19 +853,21 @@ main {
 			margin-top: 1em;
 
 			#sprite {
-				text-align: center;
+				cursor: pointer;
+				position: relative;
+
 				> img:first-child { width: 100%; }
 
 				.shiny-toggle {
-                    cursor: pointer;
-                    margin-left: .5em;
-                    opacity: .2;
-                    width: 30px;
+					color: #999;
+					position: absolute;
+					right: 0;
+					top: -2.25rem;
+					width: 30px;
 				}
 
 				&.shiny .shiny-toggle {
-					color: goldenrod;
-					opacity: .5;
+					color: gold;
 				}
 			}
 
