@@ -1159,6 +1159,12 @@ dialog {
 	}
 }
 
+footer {
+	.feather {
+		color: red;
+	}
+}
+
 
 @media (min-width: 700.1px) {
 	main #pokemon {
