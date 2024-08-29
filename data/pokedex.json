@@ -33757,6 +33757,7 @@
 		"name":		"Victini",
 		"type":		["psychic","fire"],
 		"origin":	[],
+		"family":	494,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -33817,6 +33818,7 @@
 		"name":		"Snivy",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	495,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -33877,6 +33879,7 @@
 		"name":		"Servine",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	495,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -33937,6 +33940,7 @@
 		"name":		"Serperior",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	495,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -33997,6 +34001,7 @@
 		"name":		"Tepig",
 		"type":		["fire"],
 		"origin":	[],
+		"family":	498,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34057,6 +34062,7 @@
 		"name":		"Pignite",
 		"type":		["fire","fighting"],
 		"origin":	[],
+		"family":	498,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34117,6 +34123,7 @@
 		"name":		"Emboar",
 		"type":		["fire","fighting"],
 		"origin":	[],
+		"family":	498,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34177,6 +34184,7 @@
 		"name":		"Oshawott",
 		"type":		["water"],
 		"origin":	[],
+		"family":	501,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34237,6 +34245,7 @@
 		"name":		"Dewott",
 		"type":		["water"],
 		"origin":	[],
+		"family":	501,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34297,6 +34306,7 @@
 		"name":		"Samurott",
 		"type":		["water"],
 		"origin":	[],
+		"family":	501,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Normal",
@@ -34364,6 +34374,7 @@
 		"name":		"Patrat",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	504,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34424,6 +34435,7 @@
 		"name":		"Watchog",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	504,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34484,6 +34496,7 @@
 		"name":		"Lillipup",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	506,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34544,6 +34557,7 @@
 		"name":		"Herdier",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	506,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34604,6 +34618,7 @@
 		"name":		"Stoutland",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	506,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34664,6 +34679,7 @@
 		"name":		"Purrloin",
 		"type":		["dark"],
 		"origin":	[],
+		"family":	509,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34724,6 +34740,7 @@
 		"name":		"Liepard",
 		"type":		["dark"],
 		"origin":	[],
+		"family":	509,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34784,6 +34801,7 @@
 		"name":		"Pansage",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	511,
 		"released":	true,
 		"shiny":	true,
 		"region":	"Asia-Pacific Region",
@@ -34845,6 +34863,7 @@
 		"name":		"Simisage",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	511,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -34905,6 +34924,7 @@
 		"name":		"Pansear",
 		"type":		["fire"],
 		"origin":	[],
+		"family":	513,
 		"released":	true,
 		"shiny":	true,
 		"region":	"Europe, Middle East, Africa and India",
@@ -34966,6 +34986,7 @@
 		"name":		"Simisear",
 		"type":		["fire"],
 		"origin":	[],
+		"family":	513,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35026,6 +35047,7 @@
 		"name":		"Panpour",
 		"type":		["water"],
 		"origin":	[],
+		"family":	515,
 		"released":	true,
 		"shiny":	true,
 		"region":	"North & South America, and Greenland",
@@ -35087,6 +35109,7 @@
 		"name":		"Simipour",
 		"type":		["water"],
 		"origin":	[],
+		"family":	515,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35147,6 +35170,7 @@
 		"name":		"Munna",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	517,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35207,6 +35231,7 @@
 		"name":		"Musharna",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	517,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35267,6 +35292,7 @@
 		"name":		"Pidove",
 		"type":		["normal","flying"],
 		"origin":	[],
+		"family":	519,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35327,6 +35353,7 @@
 		"name":		"Tranquill",
 		"type":		["normal","flying"],
 		"origin":	[],
+		"family":	519,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35387,6 +35414,7 @@
 		"name":		"Unfezant",
 		"type":		["normal","flying"],
 		"origin":	[],
+		"family":	519,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35447,6 +35475,7 @@
 		"name":		"Blitzle",
 		"type":		["electric"],
 		"origin":	[],
+		"family":	522,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35507,6 +35536,7 @@
 		"name":		"Zebstrika",
 		"type":		["electric"],
 		"origin":	[],
+		"family":	522,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35567,6 +35597,7 @@
 		"name":		"Roggenrola",
 		"type":		["rock"],
 		"origin":	[],
+		"family":	524,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35627,6 +35658,7 @@
 		"name":		"Boldore",
 		"type":		["rock"],
 		"origin":	[],
+		"family":	524,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35687,6 +35719,7 @@
 		"name":		"Gigalith",
 		"type":		["rock"],
 		"origin":	[],
+		"family":	524,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35747,6 +35780,7 @@
 		"name":		"Woobat",
 		"type":		["psychic","flying"],
 		"origin":	[],
+		"family":	527,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35807,6 +35841,7 @@
 		"name":		"Swoobat",
 		"type":		["psychic","flying"],
 		"origin":	[],
+		"family":	527,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35867,6 +35902,7 @@
 		"name":		"Drilbur",
 		"type":		["ground"],
 		"origin":	[],
+		"family":	529,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35927,6 +35963,7 @@
 		"name":		"Excadrill",
 		"type":		["ground","steel"],
 		"origin":	[],
+		"family":	529,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -35987,6 +36024,7 @@
 		"name":		"Audino",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	531,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Normal",
@@ -36109,6 +36147,7 @@
 		"name":		"Timburr",
 		"type":		["fighting"],
 		"origin":	[],
+		"family":	532,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -36169,6 +36208,7 @@
 		"name":		"Gurdurr",
 		"type":		["fighting"],
 		"origin":	[],
+		"family":	532,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -36229,6 +36269,7 @@
 		"name":		"Conkeldurr",
 		"type":		["fighting"],
 		"origin":	[],
+		"family":	532,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -36289,6 +36330,7 @@
 		"name":		"Tympole",
 		"type":		["water"],
 		"origin":	[],
+		"family":	535,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -36349,6 +36391,7 @@
 		"name":		"Palpitoad",
 		"type":		["water","ground"],
 		"origin":	[],
+		"family":	535,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -36409,6 +36452,7 @@
 		"name":		"Seismitoad",
 		"type":		["water","ground"],
 		"origin":	[],
+		"family":	535,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -36469,6 +36513,7 @@
 		"name":		"Throh",
 		"type":		["fighting"],
 		"origin":	[],
+		"family":	538,
 		"released":	true,
 		"shiny":	true,
 		"region":	"North & South America, and Africa",
@@ -36530,6 +36575,7 @@
 		"name":		"Sawk",
 		"type":		["fighting"],
 		"origin":	[],
+		"family":	539,
 		"released":	true,
 		"shiny":	true,
 		"region":	"Europe, Asia and Australia",
@@ -36591,6 +36637,7 @@
 		"name":		"Sewaddle",
 		"type":		["bug","grass"],
 		"origin":	[],
+		"family":	540,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -36651,6 +36698,7 @@
 		"name":		"Swadloon",
 		"type":		["bug","grass"],
 		"origin":	[],
+		"family":	540,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -36711,6 +36759,7 @@
 		"name":		"Leavanny",
 		"type":		["bug","grass"],
 		"origin":	[],
+		"family":	540,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -36771,6 +36820,7 @@
 		"name":		"Venipede",
 		"type":		["bug","poison"],
 		"origin":	[],
+		"family":	543,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -36831,6 +36881,7 @@
 		"name":		"Whirlipede",
 		"type":		["bug","poison"],
 		"origin":	[],
+		"family":	543,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -36891,6 +36942,7 @@
 		"name":		"Scolipede",
 		"type":		["bug","poison"],
 		"origin":	[],
+		"family":	543,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -36951,6 +37003,7 @@
 		"name":		"Cottonee",
 		"type":		["grass","fairy"],
 		"origin":	[],
+		"family":	546,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -37011,6 +37064,7 @@
 		"name":		"Whimsicott",
 		"type":		["grass","fairy"],
 		"origin":	[],
+		"family":	546,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -37071,6 +37125,7 @@
 		"name":		"Petilil",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	548,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -37131,6 +37186,7 @@
 		"name":		"Lilligant",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	548,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Normal",
@@ -37198,6 +37254,7 @@
 		"name":		"Basculin",
 		"type":		["water"],
 		"origin":	[],
+		"family":	550,
 		"released":	true,
 		"shiny":	false,
 		"default":	"Blue-Striped",
@@ -37268,6 +37325,7 @@
 		"name":		"Sandile",
 		"type":		["ground","dark"],
 		"origin":	[],
+		"family":	551,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -37328,6 +37386,7 @@
 		"name":		"Krokorok",
 		"type":		["ground","dark"],
 		"origin":	[],
+		"family":	551,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -37388,6 +37447,7 @@
 		"name":		"Krookodile",
 		"type":		["ground","dark"],
 		"origin":	[],
+		"family":	551,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -37448,6 +37508,7 @@
 		"name":		"Darumaka",
 		"type":		["fire"],
 		"origin":	[],
+		"family":	554,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Normal",
@@ -37515,6 +37576,7 @@
 		"name":		"Darmanitan",
 		"type":		["fire"],
 		"origin":	[],
+		"family":	554,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Standard",
@@ -37647,6 +37709,7 @@
 		"name":		"Maractus",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	556,
 		"released":	true,
 		"shiny":	false,
 		"region":	"Mexico, Central America and South America",
@@ -37708,6 +37771,7 @@
 		"name":		"Dwebble",
 		"type":		["bug","rock"],
 		"origin":	[],
+		"family":	557,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -37768,6 +37832,7 @@
 		"name":		"Crustle",
 		"type":		["bug","rock"],
 		"origin":	[],
+		"family":	557,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -37828,6 +37893,7 @@
 		"name":		"Scraggy",
 		"type":		["dark","fighting"],
 		"origin":	[],
+		"family":	559,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -37888,6 +37954,7 @@
 		"name":		"Scrafty",
 		"type":		["dark","fighting"],
 		"origin":	[],
+		"family":	559,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -37948,6 +38015,7 @@
 		"name":		"Sigilyph",
 		"type":		["psychic","flying"],
 		"origin":	[],
+		"family":	561,
 		"released":	true,
 		"shiny":	false,
 		"region":	"Egypt and Greece",
@@ -38009,6 +38077,7 @@
 		"name":		"Yamask",
 		"type":		["ghost"],
 		"origin":	[],
+		"family":	562,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Normal",
@@ -38076,6 +38145,7 @@
 		"name":		"Cofagrigus",
 		"type":		["ghost"],
 		"origin":	[],
+		"family":	562,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -38136,6 +38206,7 @@
 		"name":		"Tirtouga",
 		"type":		["water","rock"],
 		"origin":	[],
+		"family":	564,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -38196,6 +38267,7 @@
 		"name":		"Carracosta",
 		"type":		["water","rock"],
 		"origin":	[],
+		"family":	564,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -38256,6 +38328,7 @@
 		"name":		"Archen",
 		"type":		["rock","flying"],
 		"origin":	[],
+		"family":	566,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -38316,6 +38389,7 @@
 		"name":		"Archeops",
 		"type":		["rock","flying"],
 		"origin":	[],
+		"family":	566,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -38376,6 +38450,7 @@
 		"name":		"Trubbish",
 		"type":		["poison"],
 		"origin":	[],
+		"family":	568,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -38436,6 +38511,7 @@
 		"name":		"Garbodor",
 		"type":		["poison"],
 		"origin":	[],
+		"family":	568,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Normal",
@@ -38504,6 +38580,7 @@
 		"name":		"Zorua",
 		"type":		["dark"],
 		"origin":	[],
+		"family":	570,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Normal",
@@ -38571,6 +38648,7 @@
 		"name":		"Zoroark",
 		"type":		["dark"],
 		"origin":	[],
+		"family":	570,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Normal",
@@ -38638,6 +38716,7 @@
 		"name":		"Minccino",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	572,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -38698,6 +38777,7 @@
 		"name":		"Cinccino",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	572,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -38758,6 +38838,7 @@
 		"name":		"Gothita",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	574,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -38818,6 +38899,7 @@
 		"name":		"Gothorita",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	574,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -38878,6 +38960,7 @@
 		"name":		"Gothitelle",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	574,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -38938,6 +39021,7 @@
 		"name":		"Solosis",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	577,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -38998,6 +39082,7 @@
 		"name":		"Duosion",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	577,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -39058,6 +39143,7 @@
 		"name":		"Reuniclus",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	577,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -39118,6 +39204,7 @@
 		"name":		"Ducklett",
 		"type":		["water","flying"],
 		"origin":	[],
+		"family":	580,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -39178,6 +39265,7 @@
 		"name":		"Swanna",
 		"type":		["water","flying"],
 		"origin":	[],
+		"family":	580,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -39238,6 +39326,7 @@
 		"name":		"Vanillite",
 		"type":		["ice"],
 		"origin":	[],
+		"family":	582,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -39298,6 +39387,7 @@
 		"name":		"Vanillish",
 		"type":		["ice"],
 		"origin":	[],
+		"family":	582,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -39358,6 +39448,7 @@
 		"name":		"Vanilluxe",
 		"type":		["ice"],
 		"origin":	[],
+		"family":	582,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -39418,6 +39509,7 @@
 		"name":		"Deerling",
 		"type":		["normal","grass"],
 		"origin":	[],
+		"family":	585,
 		"released":	true,
 		"shiny":	false,
 		"default":	"Spring",
@@ -39485,6 +39577,7 @@
 		"name":		"Sawsbuck",
 		"type":		["normal","grass"],
 		"origin":	[],
+		"family":	585,
 		"released":	true,
 		"shiny":	false,
 		"default":	"Spring",
@@ -39552,6 +39645,7 @@
 		"name":		"Emolga",
 		"type":		["electric","flying"],
 		"origin":	[],
+		"family":	587,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -39612,6 +39706,7 @@
 		"name":		"Karrablast",
 		"type":		["bug"],
 		"origin":	[],
+		"family":	588,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -39672,6 +39767,7 @@
 		"name":		"Escavalier",
 		"type":		["bug","steel"],
 		"origin":	[],
+		"family":	588,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -39732,6 +39828,7 @@
 		"name":		"Foongus",
 		"type":		["grass","poison"],
 		"origin":	[],
+		"family":	590,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -39792,6 +39889,7 @@
 		"name":		"Amoonguss",
 		"type":		["grass","poison"],
 		"origin":	[],
+		"family":	590,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -39852,6 +39950,7 @@
 		"name":		"Frillish",
 		"type":		["water","ghost"],
 		"origin":	[],
+		"family":	592,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -39912,6 +40011,7 @@
 		"name":		"Jellicent",
 		"type":		["water","ghost"],
 		"origin":	[],
+		"family":	592,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -39972,6 +40072,7 @@
 		"name":		"Alomomola",
 		"type":		["water"],
 		"origin":	[],
+		"family":	594,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40032,6 +40133,7 @@
 		"name":		"Joltik",
 		"type":		["bug","electric"],
 		"origin":	[],
+		"family":	595,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40092,6 +40194,7 @@
 		"name":		"Galvantula",
 		"type":		["bug","electric"],
 		"origin":	[],
+		"family":	595,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40152,6 +40255,7 @@
 		"name":		"Ferroseed",
 		"type":		["grass","steel"],
 		"origin":	[],
+		"family":	597,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40212,6 +40316,7 @@
 		"name":		"Ferrothorn",
 		"type":		["grass","steel"],
 		"origin":	[],
+		"family":	597,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40272,6 +40377,7 @@
 		"name":		"Klink",
 		"type":		["steel"],
 		"origin":	[],
+		"family":	599,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40332,6 +40438,7 @@
 		"name":		"Klang",
 		"type":		["steel"],
 		"origin":	[],
+		"family":	599,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40392,6 +40499,7 @@
 		"name":		"Klinklang",
 		"type":		["steel"],
 		"origin":	[],
+		"family":	599,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40452,6 +40560,7 @@
 		"name":		"Tynamo",
 		"type":		["electric"],
 		"origin":	["wild"],
+		"family":	602,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40512,6 +40621,7 @@
 		"name":		"Eelektrik",
 		"type":		["electric"],
 		"origin":	[],
+		"family":	602,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -40572,6 +40682,7 @@
 		"name":		"Eelektross",
 		"type":		["electric"],
 		"origin":	[],
+		"family":	602,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -40632,6 +40743,7 @@
 		"name":		"Elgyem",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	605,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40692,6 +40804,7 @@
 		"name":		"Beheeyem",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	605,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40752,6 +40865,7 @@
 		"name":		"Litwick",
 		"type":		["ghost","fire"],
 		"origin":	[],
+		"family":	607,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40812,6 +40926,7 @@
 		"name":		"Lampent",
 		"type":		["ghost","fire"],
 		"origin":	[],
+		"family":	607,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40872,6 +40987,7 @@
 		"name":		"Chandelure",
 		"type":		["ghost","fire"],
 		"origin":	[],
+		"family":	607,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40932,6 +41048,7 @@
 		"name":		"Axew",
 		"type":		["dragon"],
 		"origin":	[],
+		"family":	610,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -40992,6 +41109,7 @@
 		"name":		"Fraxure",
 		"type":		["dragon"],
 		"origin":	[],
+		"family":	610,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -41052,6 +41170,7 @@
 		"name":		"Haxorus",
 		"type":		["dragon"],
 		"origin":	[],
+		"family":	610,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -41112,6 +41231,7 @@
 		"name":		"Cubchoo",
 		"type":		["ice"],
 		"origin":	[],
+		"family":	613,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -41172,6 +41292,7 @@
 		"name":		"Beartic",
 		"type":		["ice"],
 		"origin":	[],
+		"family":	613,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -41232,6 +41353,7 @@
 		"name":		"Cryogonal",
 		"type":		["ice"],
 		"origin":	[],
+		"family":	615,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -41292,6 +41414,7 @@
 		"name":		"Shelmet",
 		"type":		["bug"],
 		"origin":	[],
+		"family":	616,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -41352,6 +41475,7 @@
 		"name":		"Accelgor",
 		"type":		["bug"],
 		"origin":	[],
+		"family":	616,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -41412,6 +41536,7 @@
 		"name":		"Stunfisk",
 		"type":		["ground","electric"],
 		"origin":	[],
+		"family":	618,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Normal",
@@ -41479,6 +41604,7 @@
 		"name":		"Mienfoo",
 		"type":		["fighting"],
 		"origin":	[],
+		"family":	619,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -41539,6 +41665,7 @@
 		"name":		"Mienshao",
 		"type":		["fighting"],
 		"origin":	[],
+		"family":	619,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -41599,6 +41726,7 @@
 		"name":		"Druddigon",
 		"type":		["dragon"],
 		"origin":	[],
+		"family":	621,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -41659,6 +41787,7 @@
 		"name":		"Golett",
 		"type":		["ground","ghost"],
 		"origin":	[],
+		"family":	622,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -41719,6 +41848,7 @@
 		"name":		"Golurk",
 		"type":		["ground","ghost"],
 		"origin":	[],
+		"family":	622,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -41779,6 +41909,7 @@
 		"name":		"Pawniard",
 		"type":		["dark","steel"],
 		"origin":	[],
+		"family":	624,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -41839,6 +41970,7 @@
 		"name":		"Bisharp",
 		"type":		["dark","steel"],
 		"origin":	[],
+		"family":	624,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -41899,6 +42031,7 @@
 		"name":		"Bouffalant",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	626,
 		"released":	true,
 		"shiny":	false,
 		"region":	"New York and surrounding areas (in the United States)",
@@ -41960,6 +42093,7 @@
 		"name":		"Rufflet",
 		"type":		["normal","flying"],
 		"origin":	[],
+		"family":	627,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -42020,6 +42154,7 @@
 		"name":		"Braviary",
 		"type":		["normal","flying"],
 		"origin":	[],
+		"family":	627,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Normal",
@@ -42087,6 +42222,7 @@
 		"name":		"Vullaby",
 		"type":		["dark","flying"],
 		"origin":	[],
+		"family":	629,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -42147,6 +42283,7 @@
 		"name":		"Mandibuzz",
 		"type":		["dark","flying"],
 		"origin":	[],
+		"family":	629,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -42207,6 +42344,7 @@
 		"name":		"Heatmor",
 		"type":		["fire"],
 		"origin":	[],
+		"family":	631,
 		"released":	true,
 		"shiny":	true,
 		"region":	"Europe, Asia and Australia",
@@ -42268,6 +42406,7 @@
 		"name":		"Durant",
 		"type":		["bug","steel"],
 		"origin":	[],
+		"family":	632,
 		"released":	true,
 		"shiny":	true,
 		"region":	"North & South America, and Africa",
@@ -42329,6 +42468,7 @@
 		"name":		"Deino",
 		"type":		["dark","dragon"],
 		"origin":	[],
+		"family":	633,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -42389,6 +42529,7 @@
 		"name":		"Zweilous",
 		"type":		["dark","dragon"],
 		"origin":	[],
+		"family":	633,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -42449,6 +42590,7 @@
 		"name":		"Hydreigon",
 		"type":		["dark","dragon"],
 		"origin":	[],
+		"family":	633,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -42509,6 +42651,7 @@
 		"name":		"Larvesta",
 		"type":		["bug","fire"],
 		"origin":	[],
+		"family":	636,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -42569,6 +42712,7 @@
 		"name":		"Volcarona",
 		"type":		["bug","fire"],
 		"origin":	[],
+		"family":	636,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -42629,6 +42773,7 @@
 		"name":		"Cobalion",
 		"type":		["steel","fighting"],
 		"origin":	[],
+		"family":	638,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -42689,6 +42834,7 @@
 		"name":		"Terrakion",
 		"type":		["rock","fighting"],
 		"origin":	[],
+		"family":	639,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -42749,6 +42895,7 @@
 		"name":		"Virizion",
 		"type":		["grass","fighting"],
 		"origin":	[],
+		"family":	640,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -42809,6 +42956,7 @@
 		"name":		"Tornadus",
 		"type":		["flying"],
 		"origin":	[],
+		"family":	641,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Incarnate",
@@ -42930,6 +43078,7 @@
 		"name":		"Thundurus",
 		"type":		["electric","flying"],
 		"origin":	[],
+		"family":	642,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Incarnate",
@@ -43051,6 +43200,7 @@
 		"name":		"Reshiram",
 		"type":		["dragon","fire"],
 		"origin":	[],
+		"family":	643,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -43111,6 +43261,7 @@
 		"name":		"Zekrom",
 		"type":		["dragon","electric"],
 		"origin":	[],
+		"family":	644,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -43171,6 +43322,7 @@
 		"name":		"Landorus",
 		"type":		["ground","flying"],
 		"origin":	[],
+		"family":	645,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Incarnate",
@@ -43292,6 +43444,7 @@
 		"name":		"Kyurem",
 		"type":		["dragon","ice"],
 		"origin":	[],
+		"family":	646,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Normal",
@@ -43467,6 +43620,7 @@
 		"name":		"Keldeo",
 		"type":		["water","fighting"],
 		"origin":	[],
+		"family":	647,
 		"released":	true,
 		"shiny":	false,
 		"default":	"Ordinary",
@@ -43532,6 +43686,7 @@
 		"name":		"Meloetta",
 		"type":		["normal","psychic"],
 		"origin":	[],
+		"family":	648,
 		"released":	true,
 		"shiny":	false,
 		"default":	"Aria",
@@ -43654,6 +43809,7 @@
 		"name":		"Genesect",
 		"type":		["bug","steel"],
 		"origin":	[],
+		"family":	649,
 		"released":	true,
 		"shiny":	false,
 		"default":	"Shock Drive",
@@ -57381,8 +57537,13 @@
 		"name":		"Runerigus",
 		"type":		["ground","ghost"],
 		"origin":	[],
+		"family":	562,
 		"released":	true,
 		"shiny":	true,
+		"default":	"Galarian",
+		"forms": {
+			"Galarian":	{}
+		},
 		"cp_range":	[
 			{ "level": 1,	"min": 27,		"max": 32 },
 			{ "level": 2,	"min": 85,		"max": 100 },
@@ -59534,9 +59695,14 @@
 		"name":		"Basculegion",
 		"type":		["water","ghost"],
 		"origin":	[],
+		"family":	550,
 		"released":	false,
 		"shiny":	false,
 		"pokenote":	"CP values are false as I could not find any, they are just copied from Basculin",
+		"default":	"White-Striped",
+		"forms":	{
+			"White-Striped":	{}
+		},
 		"cp_range":	[
 			{ "level": 1,	"min": 24,		"max": 29 },
 			{ "level": 2,	"min": 77,		"max": 92 },
@@ -64409,6 +64575,7 @@
 		"name":		"Kingambit",
 		"type":		["dark","steel"],
 		"origin":	[],
+		"family":	624,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
