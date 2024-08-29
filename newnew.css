@@ -732,6 +732,7 @@ main {
 			
 			div {
 				align-items: center;
+				background: var(--bs-secondary-bg);
 				border: 1px solid #333;
 				border-radius: 10px;
 				color: #666;
@@ -756,7 +757,7 @@ main {
 					top: -24px;
 					
 					i {
-						background-color: #dadada;
+						background-color: var(--bs-tertiary-bg);
 						background-position: center center;
 						background-size: contain;
 						border: 1px solid #999;
