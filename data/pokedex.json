@@ -48556,6 +48556,7 @@
 		"name":		"Rowlet",
 		"type":		["grass","flying"],
 		"origin":	[],
+		"family":	722,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -48616,6 +48617,7 @@
 		"name":		"Dartrix",
 		"type":		["grass","flying"],
 		"origin":	[],
+		"family":	722,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -48676,6 +48678,7 @@
 		"name":		"Decidueye",
 		"type":		["grass","ghost"],
 		"origin":	[],
+		"family":	722,
 		"released":	true,
 		"shiny":	false,
 		"default":	"Normal",
@@ -48743,6 +48746,7 @@
 		"name":		"Litten",
 		"type":		["fire"],
 		"origin":	[],
+		"family":	725,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -48803,6 +48807,7 @@
 		"name":		"Torracat",
 		"type":		["fire"],
 		"origin":	[],
+		"family":	725,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -48863,6 +48868,7 @@
 		"name":		"Incineroar",
 		"type":		["fire","dark"],
 		"origin":	[],
+		"family":	725,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -48923,6 +48929,7 @@
 		"name":		"Popplio",
 		"type":		["water"],
 		"origin":	[],
+		"family":	728,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -48983,6 +48990,7 @@
 		"name":		"Brionne",
 		"type":		["water"],
 		"origin":	[],
+		"family":	728,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -49043,6 +49051,7 @@
 		"name":		"Primarina",
 		"type":		["water","fairy"],
 		"origin":	[],
+		"family":	728,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -49103,6 +49112,7 @@
 		"name":		"Pikipek",
 		"type":		["normal","flying"],
 		"origin":	[],
+		"family":	731,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -49163,6 +49173,7 @@
 		"name":		"Trumbeak",
 		"type":		["normal","flying"],
 		"origin":	[],
+		"family":	731,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -49223,6 +49234,7 @@
 		"name":		"Toucannon",
 		"type":		["normal","flying"],
 		"origin":	[],
+		"family":	731,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -49283,6 +49295,7 @@
 		"name":		"Yungoos",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	734,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -49343,6 +49356,7 @@
 		"name":		"Gumshoos",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	734,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -49403,6 +49417,7 @@
 		"name":		"Grubbin",
 		"type":		["bug"],
 		"origin":	[],
+		"family":	736,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -49463,6 +49478,7 @@
 		"name":		"Charjabug",
 		"type":		["bug","electric"],
 		"origin":	[],
+		"family":	736,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -49523,6 +49539,7 @@
 		"name":		"Vikavolt",
 		"type":		["bug","electric"],
 		"origin":	[],
+		"family":	736,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -49583,6 +49600,7 @@
 		"name":		"Crabrawler",
 		"type":		["fighting"],
 		"origin":	[],
+		"family":	739,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -49643,6 +49661,7 @@
 		"name":		"Crabominable",
 		"type":		["fighting","ice"],
 		"origin":	[],
+		"family":	739,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -49703,6 +49722,7 @@
 		"name":		"Oricorio",
 		"type":		["fire","flying"],
 		"origin":	[],
+		"family":	741,
 		"released":	true,
 		"shiny":	false,
 		"default":	"Pom-Pom",
@@ -49770,6 +49790,7 @@
 		"name":		"Cutiefly",
 		"type":		["bug","fairy"],
 		"origin":	[],
+		"family":	742,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -49830,6 +49851,7 @@
 		"name":		"Ribombee",
 		"type":		["bug","fairy"],
 		"origin":	[],
+		"family":	742,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -49890,6 +49912,7 @@
 		"name":		"Rockruff",
 		"type":		["rock"],
 		"origin":	[],
+		"family":	744,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -49950,6 +49973,7 @@
 		"name":		"Lycanroc",
 		"type":		["rock"],
 		"origin":	[],
+		"family":	744,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Midday",
@@ -50126,6 +50150,7 @@
 		"name":		"Wishiwashi",
 		"type":		["water"],
 		"origin":	[],
+		"family":	746,
 		"released":	false,
 		"shiny":	false,
 		"default":	"Solo",
@@ -50247,6 +50272,7 @@
 		"name":		"Mareanie",
 		"type":		["poison","water"],
 		"origin":	[],
+		"family":	747,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -50307,6 +50333,7 @@
 		"name":		"Toxapex",
 		"type":		["poison","water"],
 		"origin":	[],
+		"family":	747,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -50367,6 +50394,7 @@
 		"name":		"Mudbray",
 		"type":		["ground"],
 		"origin":	[],
+		"family":	749,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -50427,6 +50455,7 @@
 		"name":		"Mudsdale",
 		"type":		["ground"],
 		"origin":	[],
+		"family":	749,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -50487,6 +50516,7 @@
 		"name":		"Dewpider",
 		"type":		["water","bug"],
 		"origin":	[],
+		"family":	751,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -50547,6 +50577,7 @@
 		"name":		"Araquanid",
 		"type":		["water","bug"],
 		"origin":	[],
+		"family":	751,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -50607,6 +50638,7 @@
 		"name":		"Fomantis",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	753,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -50667,6 +50699,7 @@
 		"name":		"Lurantis",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	753,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -50727,6 +50760,7 @@
 		"name":		"Morelull",
 		"type":		["grass","fairy"],
 		"origin":	[],
+		"family":	755,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -50787,6 +50821,7 @@
 		"name":		"Shiinotic",
 		"type":		["grass","fairy"],
 		"origin":	[],
+		"family":	755,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -50847,6 +50882,7 @@
 		"name":		"Salandit",
 		"type":		["poison","fire"],
 		"origin":	[],
+		"family":	757,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -50907,6 +50943,7 @@
 		"name":		"Salazzle",
 		"type":		["poison","fire"],
 		"origin":	[],
+		"family":	757,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -50967,6 +51004,7 @@
 		"name":		"Stufful",
 		"type":		["normal","fighting"],
 		"origin":	[],
+		"family":	759,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -51027,6 +51065,7 @@
 		"name":		"Bewear",
 		"type":		["normal","fighting"],
 		"origin":	[],
+		"family":	759,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -51087,6 +51126,7 @@
 		"name":		"Bounsweet",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	761,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -51147,6 +51187,7 @@
 		"name":		"Steenee",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	761,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -51207,6 +51248,7 @@
 		"name":		"Tsareena",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	761,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -51267,6 +51309,7 @@
 		"name":		"Comfey",
 		"type":		["fairy"],
 		"origin":	[],
+		"family":	764,
 		"released":	true,
 		"shiny":	false,
 		"region":	"Hawaii",
@@ -51328,6 +51371,7 @@
 		"name":		"Oranguru",
 		"type":		["normal","psychic"],
 		"origin":	[],
+		"family":	765,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -51388,6 +51432,7 @@
 		"name":		"Passimian",
 		"type":		["fighting"],
 		"origin":	[],
+		"family":	766,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -51448,6 +51493,7 @@
 		"name":		"Wimpod",
 		"type":		["bug","water"],
 		"origin":	[],
+		"family":	767,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -51508,6 +51554,7 @@
 		"name":		"Golisopod",
 		"type":		["bug","water"],
 		"origin":	[],
+		"family":	767,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -51568,6 +51615,7 @@
 		"name":		"Sandygast",
 		"type":		["ghost","ground"],
 		"origin":	[],
+		"family":	769,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -51628,6 +51676,7 @@
 		"name":		"Palossand",
 		"type":		["ghost","ground"],
 		"origin":	[],
+		"family":	769,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -51688,6 +51737,7 @@
 		"name":		"Pyukumuku",
 		"type":		["water"],
 		"origin":	[],
+		"family":	771,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -51748,6 +51798,7 @@
 		"name":		"Type: Null",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	772,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -51805,11 +51856,16 @@
 	},
 	"773":	{
 		"id":		773,
-		"name":		"Silvally (Normal)",
+		"name":		"Silvally",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	772,
 		"released":	false,
 		"shiny":	false,
+		"default":	"Normal",
+		"forms":	{
+			"Normal":	{}
+		},
 		"cp_range":	[
 			{ "level": 1,	"min": 36,		"max": 41 },
 			{ "level": 2,	"min": 113,		"max": 130 },
@@ -51868,6 +51924,7 @@
 		"name":		"Minior",
 		"type":		["rock","flying"],
 		"origin":	[],
+		"family":	774,
 		"released":	false,
 		"shiny":	false,
 		"default":	"Meteor",
@@ -51939,6 +51996,7 @@
 		"name":		"Komala",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	775,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -51999,6 +52057,7 @@
 		"name":		"Turtonator",
 		"type":		["fire","dragon"],
 		"origin":	[],
+		"family":	776,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -52059,6 +52118,7 @@
 		"name":		"Togedemaru",
 		"type":		["electric","steel"],
 		"origin":	[],
+		"family":	777,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -52119,8 +52179,14 @@
 		"name":		"Mimikyu",
 		"type":		["ghost","fairy"],
 		"origin":	[],
+		"family":	778,
 		"released":	false,
 		"shiny":	false,
+		"default":	"Disguised",
+		"forms":	{
+			"Disguised":	{},
+			"Busted":		{}
+		},
 		"cp_range":	[
 			{ "level": 1,	"min": 26,		"max": 31 },
 			{ "level": 2,	"min": 83,		"max": 98 },
@@ -52179,6 +52245,7 @@
 		"name":		"Bruxish",
 		"type":		["water","psychic"],
 		"origin":	[],
+		"family":	779,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -52239,6 +52306,7 @@
 		"name":		"Drampa",
 		"type":		["normal","dragon"],
 		"origin":	[],
+		"family":	780,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -52299,6 +52367,7 @@
 		"name":		"Dhelmise",
 		"type":		["ghost","grass"],
 		"origin":	[],
+		"family":	781,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -52359,6 +52428,7 @@
 		"name":		"Jangmo-o",
 		"type":		["dragon"],
 		"origin":	[],
+		"family":	782,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -52419,6 +52489,7 @@
 		"name":		"Hakamo-o",
 		"type":		["dragon","fighting"],
 		"origin":	[],
+		"family":	782,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -52479,6 +52550,7 @@
 		"name":		"Kommo-o",
 		"type":		["dragon","fighting"],
 		"origin":	[],
+		"family":	782,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -52539,6 +52611,7 @@
 		"name":		"Tapu Koko",
 		"type":		["electric","fairy"],
 		"origin":	[],
+		"family":	785,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -52599,6 +52672,7 @@
 		"name":		"Tapu Lele",
 		"type":		["psychic","fairy"],
 		"origin":	[],
+		"family":	786,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -52659,6 +52733,7 @@
 		"name":		"Tapu Bulu",
 		"type":		["grass","fairy"],
 		"origin":	[],
+		"family":	787,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -52719,6 +52794,7 @@
 		"name":		"Tapu Fini",
 		"type":		["water","fairy"],
 		"origin":	[],
+		"family":	788,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -52779,6 +52855,7 @@
 		"name":		"Cosmog",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	789,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -52839,6 +52916,7 @@
 		"name":		"Cosmoem",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	789,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -52899,6 +52977,7 @@
 		"name":		"Solgaleo",
 		"type":		["psychic","steel"],
 		"origin":	[],
+		"family":	789,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -52959,6 +53038,7 @@
 		"name":		"Lunala",
 		"type":		["psychic","ghost"],
 		"origin":	[],
+		"family":	789,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -53019,6 +53099,7 @@
 		"name":		"Nihilego",
 		"type":		["rock","poison"],
 		"origin":	[],
+		"family":	793,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -53079,6 +53160,7 @@
 		"name":		"Buzzwole",
 		"type":		["bug","fighting"],
 		"origin":	[],
+		"family":	794,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -53139,6 +53221,7 @@
 		"name":		"Pheromosa",
 		"type":		["bug","fighting"],
 		"origin":	[],
+		"family":	795,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -53199,6 +53282,7 @@
 		"name":		"Xurkitree",
 		"type":		["electric"],
 		"origin":	[],
+		"family":	796,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -53259,6 +53343,7 @@
 		"name":		"Celesteela",
 		"type":		["steel","flying"],
 		"origin":	[],
+		"family":	797,
 		"released":	true,
 		"shiny":	false,
 		"region":	"Southern Hemisphere",
@@ -53320,6 +53405,7 @@
 		"name":		"Kartana",
 		"type":		["grass","steel"],
 		"origin":	[],
+		"family":	798,
 		"released":	true,
 		"shiny":	false,
 		"region":	"Northern Hemisphere",
@@ -53381,6 +53467,7 @@
 		"name":		"Guzzlord",
 		"type":		["dark","dragon"],
 		"origin":	[],
+		"family":	799,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -53441,68 +53528,83 @@
 		"name":		"Necrozma",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	800,
 		"released":	true,
 		"shiny":	true,
-		"cp_range":	[
-			{ "level": 1,	"min": 45,		"max": 52 },
-			{ "level": 2,	"min": 143,		"max": 163 },
-			{ "level": 3,	"min": 241,		"max": 274 },
-			{ "level": 4,	"min": 339,		"max": 385 },
-			{ "level": 5,	"min": 436,		"max": 496 },
-			{ "level": 6,	"min": 534,		"max": 607 },
-			{ "level": 7,	"min": 632,		"max": 719 },
-			{ "level": 8,	"min": 730,		"max": 830 },
-			{ "level": 9,	"min": 828,		"max": 941 },
-			{ "level": 10,	"min": 925,		"max": 1052 },
-			{ "level": 11,	"min": 1018,	"max": 1157 },
-			{ "level": 12,	"min": 1110,	"max": 1262 },
-			{ "level": 13,	"min": 1203,	"max": 1368 },
-			{ "level": 14,	"min": 1296,	"max": 1473 },
-			{ "level": 15,	"min": 1388,	"max": 1578 },
-			{ "level": 16,	"min": 1481,	"max": 1683 },
-			{ "level": 17,	"min": 1573,	"max": 1788 },
-			{ "level": 18,	"min": 1666,	"max": 1894 },
-			{ "level": 19,	"min": 1758,	"max": 1999 },
-			{ "level": 20,	"min": 1851,	"max": 2104 },
-			{ "level": 21,	"min": 1943,	"max": 2209 },
-			{ "level": 22,	"min": 2036,	"max": 2314 },
-			{ "level": 23,	"min": 2128,	"max": 2420 },
-			{ "level": 24,	"min": 2221,	"max": 2525 },
-			{ "level": 25,	"min": 2314,	"max": 2630 },
-			{ "level": 26,	"min": 2406,	"max": 2735 },
-			{ "level": 27,	"min": 2499,	"max": 2841 },
-			{ "level": 28,	"min": 2591,	"max": 2946 },
-			{ "level": 29,	"min": 2684,	"max": 3051 },
-			{ "level": 30,	"min": 2777,	"max": 3156 },
-			{ "level": 31,	"min": 2823,	"max": 3209 },
-			{ "level": 32,	"min": 2869,	"max": 3262 },
-			{ "level": 33,	"min": 2915,	"max": 3314 },
-			{ "level": 34,	"min": 2962,	"max": 3367 },
-			{ "level": 35,	"min": 3008,	"max": 3419 },
-			{ "level": 36,	"min": 3054,	"max": 3472 },
-			{ "level": 37,	"min": 3100,	"max": 3525 },
-			{ "level": 38,	"min": 3147,	"max": 3577 },
-			{ "level": 39,	"min": 3193,	"max": 3630 },
-			{ "level": 40,	"min": 3239,	"max": 3682 },
-			{ "level": 41,	"min": 3280,	"max": 3729 },
-			{ "level": 42,	"min": 3322,	"max": 3776 },
-			{ "level": 43,	"min": 3363,	"max": 3823 },
-			{ "level": 44,	"min": 3405,	"max": 3871 },
-			{ "level": 45,	"min": 3447,	"max": 3919 },
-			{ "level": 46,	"min": 3490,	"max": 3967 },
-			{ "level": 47,	"min": 3532,	"max": 4016 },
-			{ "level": 48,	"min": 3575,	"max": 4065 },
-			{ "level": 49,	"min": 3619,	"max": 4114 },
-			{ "level": 50,	"min": 3662,	"max": 4163 }
-		]
+		"default":	"Normal",
+		"forms":	{
+			"Normal":		{
+				"cp_range":	[
+					{ "level": 1,	"min": 45,		"max": 52 },
+					{ "level": 2,	"min": 143,		"max": 163 },
+					{ "level": 3,	"min": 241,		"max": 274 },
+					{ "level": 4,	"min": 339,		"max": 385 },
+					{ "level": 5,	"min": 436,		"max": 496 },
+					{ "level": 6,	"min": 534,		"max": 607 },
+					{ "level": 7,	"min": 632,		"max": 719 },
+					{ "level": 8,	"min": 730,		"max": 830 },
+					{ "level": 9,	"min": 828,		"max": 941 },
+					{ "level": 10,	"min": 925,		"max": 1052 },
+					{ "level": 11,	"min": 1018,	"max": 1157 },
+					{ "level": 12,	"min": 1110,	"max": 1262 },
+					{ "level": 13,	"min": 1203,	"max": 1368 },
+					{ "level": 14,	"min": 1296,	"max": 1473 },
+					{ "level": 15,	"min": 1388,	"max": 1578 },
+					{ "level": 16,	"min": 1481,	"max": 1683 },
+					{ "level": 17,	"min": 1573,	"max": 1788 },
+					{ "level": 18,	"min": 1666,	"max": 1894 },
+					{ "level": 19,	"min": 1758,	"max": 1999 },
+					{ "level": 20,	"min": 1851,	"max": 2104 },
+					{ "level": 21,	"min": 1943,	"max": 2209 },
+					{ "level": 22,	"min": 2036,	"max": 2314 },
+					{ "level": 23,	"min": 2128,	"max": 2420 },
+					{ "level": 24,	"min": 2221,	"max": 2525 },
+					{ "level": 25,	"min": 2314,	"max": 2630 },
+					{ "level": 26,	"min": 2406,	"max": 2735 },
+					{ "level": 27,	"min": 2499,	"max": 2841 },
+					{ "level": 28,	"min": 2591,	"max": 2946 },
+					{ "level": 29,	"min": 2684,	"max": 3051 },
+					{ "level": 30,	"min": 2777,	"max": 3156 },
+					{ "level": 31,	"min": 2823,	"max": 3209 },
+					{ "level": 32,	"min": 2869,	"max": 3262 },
+					{ "level": 33,	"min": 2915,	"max": 3314 },
+					{ "level": 34,	"min": 2962,	"max": 3367 },
+					{ "level": 35,	"min": 3008,	"max": 3419 },
+					{ "level": 36,	"min": 3054,	"max": 3472 },
+					{ "level": 37,	"min": 3100,	"max": 3525 },
+					{ "level": 38,	"min": 3147,	"max": 3577 },
+					{ "level": 39,	"min": 3193,	"max": 3630 },
+					{ "level": 40,	"min": 3239,	"max": 3682 },
+					{ "level": 41,	"min": 3280,	"max": 3729 },
+					{ "level": 42,	"min": 3322,	"max": 3776 },
+					{ "level": 43,	"min": 3363,	"max": 3823 },
+					{ "level": 44,	"min": 3405,	"max": 3871 },
+					{ "level": 45,	"min": 3447,	"max": 3919 },
+					{ "level": 46,	"min": 3490,	"max": 3967 },
+					{ "level": 47,	"min": 3532,	"max": 4016 },
+					{ "level": 48,	"min": 3575,	"max": 4065 },
+					{ "level": 49,	"min": 3619,	"max": 4114 },
+					{ "level": 50,	"min": 3662,	"max": 4163 }
+				]
+			},
+			"Dawn Wings":	{},
+			"Dusk Mane":	{},
+			"Ultra":		{}
+		}
 	},
 	"801":	{
 		"id":		801,
 		"name":		"Magearna",
 		"type":		["steel","fairy"],
 		"origin":	[],
+		"family":	801,
 		"released":	false,
 		"shiny":	false,
+		"default":	"Normal",
+		"forms":	{
+			"Normal":			{},
+			"Original Color":	{}
+		},
 		"cp_range":	[
 			{ "level": 1,	"min": 44,		"max": 51 },
 			{ "level": 2,	"min": 140,		"max": 160 },
@@ -53561,6 +53663,7 @@
 		"name":		"Marshadow",
 		"type":		["fighting","ghost"],
 		"origin":	[],
+		"family":	802,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -53621,6 +53724,7 @@
 		"name":		"Poipole",
 		"type":		["poison"],
 		"origin":	[],
+		"family":	803,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -53681,6 +53785,7 @@
 		"name":		"Naganadel",
 		"type":		["poison","dragon"],
 		"origin":	[],
+		"family":	803,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -53741,6 +53846,7 @@
 		"name":		"Stakataka",
 		"type":		["rock","steel"],
 		"origin":	[],
+		"family":	805,
 		"released":	true,
 		"shiny":	false,
 		"region":	"Eastern Hemisphere",
@@ -53802,6 +53908,7 @@
 		"name":		"Blacephalon",
 		"type":		["fire","ghost"],
 		"origin":	[],
+		"family":	806,
 		"released":	true,
 		"shiny":	false,
 		"region":	"Western Hemisphere",
@@ -53863,6 +53970,7 @@
 		"name":		"Zeraora",
 		"type":		["electric"],
 		"origin":	[],
+		"family":	807,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -53923,6 +54031,7 @@
 		"name":		"Meltan",
 		"type":		["steel"],
 		"origin":	[],
+		"family":	808,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -53983,6 +54092,7 @@
 		"name":		"Melmetal",
 		"type":		["steel"],
 		"origin":	[],
+		"family":	808,
 		"released":	true,
 		"shiny":	true,
 		"default":	"Normal",
