@@ -60218,6 +60218,7 @@
 		"name":		"Sprigatito",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	906,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -60278,6 +60279,7 @@
 		"name":		"Floragato",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	906,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -60338,6 +60340,7 @@
 		"name":		"Meowscarada",
 		"type":		["grass","dark"],
 		"origin":	[],
+		"family":	906,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -60398,6 +60401,7 @@
 		"name":		"Fuecoco",
 		"type":		["fire"],
 		"origin":	[],
+		"family":	909,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -60458,6 +60462,7 @@
 		"name":		"Crocalor",
 		"type":		["fire"],
 		"origin":	[],
+		"family":	909,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -60518,6 +60523,7 @@
 		"name":		"Skeledirge",
 		"type":		["fire","ghost"],
 		"origin":	[],
+		"family":	909,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -60578,6 +60584,7 @@
 		"name":		"Quaxly",
 		"type":		["water"],
 		"origin":	[],
+		"family":	912,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -60638,6 +60645,7 @@
 		"name":		"Quaxwell",
 		"type":		["water"],
 		"origin":	[],
+		"family":	912,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -60698,6 +60706,7 @@
 		"name":		"Quaquaval",
 		"type":		["water","fighting"],
 		"origin":	[],
+		"family":	912,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -60758,6 +60767,7 @@
 		"name":		"Lechonk",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	915,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -60818,6 +60828,7 @@
 		"name":		"Oinkologne",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	915,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -60878,6 +60889,7 @@
 		"name":		"Tarountula",
 		"type":		["bug"],
 		"origin":	[],
+		"family":	917,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -60938,6 +60950,7 @@
 		"name":		"Spidops",
 		"type":		["bug"],
 		"origin":	[],
+		"family":	917,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -60998,6 +61011,7 @@
 		"name":		"Nymble",
 		"type":		["bug"],
 		"origin":	[],
+		"family":	919,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -61058,6 +61072,7 @@
 		"name":		"Lokix",
 		"type":		["bug","dark"],
 		"origin":	[],
+		"family":	919,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -61118,6 +61133,7 @@
 		"name":		"Pawmi",
 		"type":		["electric"],
 		"origin":	[],
+		"family":	921,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -61178,6 +61194,7 @@
 		"name":		"Pawmo",
 		"type":		["electric","fighting"],
 		"origin":	[],
+		"family":	921,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -61238,6 +61255,7 @@
 		"name":		"Pawmot",
 		"type":		["electric","fighting"],
 		"origin":	[],
+		"family":	921,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -61298,6 +61316,7 @@
 		"name":		"Tandemaus",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	924,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -61358,9 +61377,14 @@
 		"name":		"Maushold",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	924,
 		"released":	true,
 		"shiny":	false,
-		"forms":	{},
+		"default":	"Family of Four",
+		"forms":	{
+			"Family of Four":	{},
+			"Family of Three":	{}
+		},
 		"cp_range":	[
 			{ "level": 1,	"min": 23,		"max": 28 },
 			{ "level": 2,	"min": 73,		"max": 88 },
@@ -61419,6 +61443,7 @@
 		"name":		"Fidough",
 		"type":		["fairy"],
 		"origin":	[],
+		"family":	926,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -61479,6 +61504,7 @@
 		"name":		"Dachsbun",
 		"type":		["fairy"],
 		"origin":	[],
+		"family":	926,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -61539,6 +61565,7 @@
 		"name":		"Smoliv",
 		"type":		["grass","normal"],
 		"origin":	[],
+		"family":	928,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -61599,6 +61626,7 @@
 		"name":		"Dolliv",
 		"type":		["grass","normal"],
 		"origin":	[],
+		"family":	928,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -61659,6 +61687,7 @@
 		"name":		"Arboliva",
 		"type":		["grass","normal"],
 		"origin":	[],
+		"family":	928,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -61719,6 +61748,7 @@
 		"name":		"Squawkabilly",
 		"type":		["normal","flying"],
 		"origin":	[],
+		"family":	931,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -61779,6 +61809,7 @@
 		"name":		"Nacli",
 		"type":		["rock"],
 		"origin":	[],
+		"family":	932,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -61839,6 +61870,7 @@
 		"name":		"Naclstack",
 		"type":		["rock"],
 		"origin":	[],
+		"family":	932,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -61899,6 +61931,7 @@
 		"name":		"Garganacl",
 		"type":		["rock"],
 		"origin":	[],
+		"family":	932,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -61959,6 +61992,7 @@
 		"name":		"Charcadet",
 		"type":		["fire"],
 		"origin":	[],
+		"family":	935,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -62019,6 +62053,7 @@
 		"name":		"Armarouge",
 		"type":		["fire","psychic"],
 		"origin":	[],
+		"family":	935,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -62079,6 +62114,7 @@
 		"name":		"Ceruledge",
 		"type":		["fire","ghost"],
 		"origin":	[],
+		"family":	935,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -62139,6 +62175,7 @@
 		"name":		"Tadbulb",
 		"type":		["electric"],
 		"origin":	[],
+		"family":	938,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -62199,6 +62236,7 @@
 		"name":		"Bellibolt",
 		"type":		["electric"],
 		"origin":	[],
+		"family":	938,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -62259,6 +62297,7 @@
 		"name":		"Wattrel",
 		"type":		["electric","flying"],
 		"origin":	[],
+		"family":	940,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -62319,6 +62358,7 @@
 		"name":		"Kilowattrel",
 		"type":		["electric","flying"],
 		"origin":	[],
+		"family":	940,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -62379,6 +62419,7 @@
 		"name":		"Maschiff",
 		"type":		["dark"],
 		"origin":	[],
+		"family":	942,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -62439,6 +62480,7 @@
 		"name":		"Mabosstiff",
 		"type":		["dark"],
 		"origin":	[],
+		"family":	942,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -62499,6 +62541,7 @@
 		"name":		"Shroodle",
 		"type":		["poison","normal"],
 		"origin":	[],
+		"family":	944,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -62559,6 +62602,7 @@
 		"name":		"Grafaiai",
 		"type":		["poison","normal"],
 		"origin":	[],
+		"family":	944,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -62619,6 +62663,7 @@
 		"name":		"Bramblin",
 		"type":		["grass","ghost"],
 		"origin":	[],
+		"family":	946,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -62679,6 +62724,7 @@
 		"name":		"Brambleghast",
 		"type":		["grass","ghost"],
 		"origin":	[],
+		"family":	946,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -62739,6 +62785,7 @@
 		"name":		"Toedscool",
 		"type":		["ground","grass"],
 		"origin":	[],
+		"family":	948,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -62799,6 +62846,7 @@
 		"name":		"Toedscruel",
 		"type":		["ground","grass"],
 		"origin":	[],
+		"family":	948,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -62859,6 +62907,7 @@
 		"name":		"Klawf",
 		"type":		["rock"],
 		"origin":	[],
+		"family":	950,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -62919,6 +62968,7 @@
 		"name":		"Capsakid",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	951,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -62979,6 +63029,7 @@
 		"name":		"Scovillain",
 		"type":		["grass","fire"],
 		"origin":	[],
+		"family":	951,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63039,6 +63090,7 @@
 		"name":		"Rellor",
 		"type":		["bug"],
 		"origin":	[],
+		"family":	953,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63099,6 +63151,7 @@
 		"name":		"Rabsca",
 		"type":		["bug","psychic"],
 		"origin":	[],
+		"family":	953,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63159,6 +63212,7 @@
 		"name":		"Flittle",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	955,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63219,6 +63273,7 @@
 		"name":		"Espathra",
 		"type":		["psychic"],
 		"origin":	[],
+		"family":	955,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63279,6 +63334,7 @@
 		"name":		"Tinkatink",
 		"type":		["fairy","steel"],
 		"origin":	[],
+		"family":	957,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63339,6 +63395,7 @@
 		"name":		"Tinkatuff",
 		"type":		["fairy","steel"],
 		"origin":	[],
+		"family":	957,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63399,6 +63456,7 @@
 		"name":		"Tinkaton",
 		"type":		["fairy","steel"],
 		"origin":	[],
+		"family":	957,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63459,6 +63517,7 @@
 		"name":		"Wiglett",
 		"type":		["water"],
 		"origin":	[],
+		"family":	960,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -63519,6 +63578,7 @@
 		"name":		"Wugtrio",
 		"type":		["water"],
 		"origin":	[],
+		"family":	960,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63579,6 +63639,7 @@
 		"name":		"Bombirdier",
 		"type":		["flying","dark"],
 		"origin":	[],
+		"family":	962,
 		"released":	true,
 		"shiny":	true,
 		"cp_range":	[
@@ -63639,6 +63700,7 @@
 		"name":		"Finizen",
 		"type":		["water"],
 		"origin":	[],
+		"family":	963,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63699,6 +63761,7 @@
 		"name":		"Palafin",
 		"type":		["water"],
 		"origin":	[],
+		"family":	963,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63759,6 +63822,7 @@
 		"name":		"Varoom",
 		"type":		["steel","poison"],
 		"origin":	[],
+		"family":	965,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -63819,6 +63883,7 @@
 		"name":		"Revavroom",
 		"type":		["steel","poison"],
 		"origin":	[],
+		"family":	965,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -63879,6 +63944,7 @@
 		"name":		"Cyclizar",
 		"type":		["dragon","normal"],
 		"origin":	[],
+		"family":	967,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63939,6 +64005,7 @@
 		"name":		"Orthworm",
 		"type":		["steel"],
 		"origin":	[],
+		"family":	968,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -63999,6 +64066,7 @@
 		"name":		"Glimmet",
 		"type":		["rock","poison"],
 		"origin":	[],
+		"family":	969,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -64059,6 +64127,7 @@
 		"name":		"Glimmora",
 		"type":		["rock","poison"],
 		"origin":	[],
+		"family":	969,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -64119,6 +64188,7 @@
 		"name":		"Greavard",
 		"type":		["ghost"],
 		"origin":	[],
+		"family":	971,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -64179,6 +64249,7 @@
 		"name":		"Houndstone",
 		"type":		["ghost"],
 		"origin":	[],
+		"family":	971,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -64239,6 +64310,7 @@
 		"name":		"Flamigo",
 		"type":		["flying","fighting"],
 		"origin":	[],
+		"family":	973,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -64299,6 +64371,7 @@
 		"name":		"Cetoddle",
 		"type":		["ice"],
 		"origin":	[],
+		"family":	974,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -64359,6 +64432,7 @@
 		"name":		"Cetitan",
 		"type":		["ice"],
 		"origin":	[],
+		"family":	974,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -64419,6 +64493,7 @@
 		"name":		"Veluza",
 		"type":		["water","psychic"],
 		"origin":	[],
+		"family":	976,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -64479,6 +64554,7 @@
 		"name":		"Dondozo",
 		"type":		["water"],
 		"origin":	[],
+		"family":	977,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -64539,8 +64615,15 @@
 		"name":		"Tatsugiri",
 		"type":		["dragon","water"],
 		"origin":	[],
+		"family":	978,
 		"released":	false,
 		"shiny":	false,
+		"default":	"Curly",
+		"forms":	{
+			"Curly":	{},
+			"Droopy":	{},
+			"Stretchy":	{}
+		},
 		"cp_range":	[
 			{ "level": 1,	"min": 33,		"max": 38 },
 			{ "level": 2,	"min": 104,		"max": 121 },
@@ -64598,8 +64681,8 @@
 		"id":		979,
 		"name":		"Annihilape",
 		"type":		["fighting","ghost"],
-		"family":	56,
 		"origin":	[],
+		"family":	56,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -64660,8 +64743,13 @@
 		"name":		"Clodsire",
 		"type":		["poison","ground"],
 		"origin":	[],
+		"family":	194,
 		"released":	true,
 		"shiny":	true,
+		"default":	"Paldean",
+		"forms":	{
+			"Paldean":	{}
+		},
 		"cp_range":	[
 			{ "level": 1,	"min": 22,		"max": 27 },
 			{ "level": 2,	"min": 71,		"max": 86 },
@@ -64903,6 +64991,7 @@
 		"name":		"Great Tusk",
 		"type":		["ground","fighting"],
 		"origin":	[],
+		"family":	984,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -64963,6 +65052,7 @@
 		"name":		"Scream Tail",
 		"type":		["fairy","psychic"],
 		"origin":	[],
+		"family":	985,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -65023,6 +65113,7 @@
 		"name":		"Brute Bonnet",
 		"type":		["grass","dark"],
 		"origin":	[],
+		"family":	986,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -65083,6 +65174,7 @@
 		"name":		"Flutter Mane",
 		"type":		["ghost","fairy"],
 		"origin":	[],
+		"family":	987,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -65143,6 +65235,7 @@
 		"name":		"Slither Wing",
 		"type":		["bug","fighting"],
 		"origin":	[],
+		"family":	988,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -65203,6 +65296,7 @@
 		"name":		"Sandy Shocks",
 		"type":		["electric","ground"],
 		"origin":	[],
+		"family":	989,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -65263,6 +65357,7 @@
 		"name":		"Iron Treads",
 		"type":		["ground","steel"],
 		"origin":	[],
+		"family":	990,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -65323,6 +65418,7 @@
 		"name":		"Iron Bundle",
 		"type":		["ice","water"],
 		"origin":	[],
+		"family":	991,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -65383,6 +65479,7 @@
 		"name":		"Iron Hands",
 		"type":		["fighting","electric"],
 		"origin":	[],
+		"family":	992,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -65443,6 +65540,7 @@
 		"name":		"Iron Jugulis",
 		"type":		["dark","flying"],
 		"origin":	[],
+		"family":	993,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -65503,6 +65601,7 @@
 		"name":		"Iron Moth",
 		"type":		["fire","poison"],
 		"origin":	[],
+		"family":	994,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -65563,6 +65662,7 @@
 		"name":		"Iron Thorns",
 		"type":		["rock","electric"],
 		"origin":	[],
+		"family":	995,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -65623,6 +65723,7 @@
 		"name":		"Frigibax",
 		"type":		["dragon","ice"],
 		"origin":	[],
+		"family":	996,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -65683,6 +65784,7 @@
 		"name":		"Arctibax",
 		"type":		["dragon","ice"],
 		"origin":	[],
+		"family":	996,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -65743,6 +65845,7 @@
 		"name":		"Baxcalibur",
 		"type":		["dragon","ice"],
 		"origin":	[],
+		"family":	996,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -65803,6 +65906,7 @@
 		"name":		"Gimmighoul",
 		"type":		["ghost"],
 		"origin":	[],
+		"family":	999,
 		"released":	true,
 		"shiny":	false,
 		"default":	"Roaming",
@@ -65869,6 +65973,7 @@
 		"name":		"Gholdengo",
 		"type":		["steel","ghost"],
 		"origin":	[],
+		"family":	999,
 		"released":	true,
 		"shiny":	false,
 		"cp_range":	[
@@ -65929,6 +66034,7 @@
 		"name":		"Wo-Chien",
 		"type":		["dark","grass"],
 		"origin":	[],
+		"family":	1001,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -65989,6 +66095,7 @@
 		"name":		"Chien-Pao",
 		"type":		["dark","ice"],
 		"origin":	[],
+		"family":	1002,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -66049,6 +66156,7 @@
 		"name":		"Ting-Lu",
 		"type":		["dark","ground"],
 		"origin":	[],
+		"family":	1003,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -66109,6 +66217,7 @@
 		"name":		"Chi-Yu",
 		"type":		["dark","fire"],
 		"origin":	[],
+		"family":	1004,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -66169,6 +66278,7 @@
 		"name":		"Roaring Moon",
 		"type":		["dragon","dark"],
 		"origin":	[],
+		"family":	1005,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -66229,6 +66339,7 @@
 		"name":		"Iron Valiant",
 		"type":		["fairy","fighting"],
 		"origin":	[],
+		"family":	1006,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -66289,6 +66400,7 @@
 		"name":		"Koraidon",
 		"type":		["fighting","dragon"],
 		"origin":	[],
+		"family":	1007,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -66349,6 +66461,7 @@
 		"name":		"Miraidon",
 		"type":		["electric","dragon"],
 		"origin":	[],
+		"family":	1008,
 		"released":	false,
 		"shiny":	false,
 		"cp_range":	[
@@ -66409,6 +66522,7 @@
 		"name":		"Walking Wake",
 		"type":		["water","dragon"],
 		"origin":	[],
+		"family":	1009,
 		"released":	false,
 		"shiny":	false
 	},
@@ -66417,6 +66531,7 @@
 		"name":		"Iron Leaves",
 		"type":		["grass","psychic"],
 		"origin":	[],
+		"family":	1010,
 		"released":	false,
 		"shiny":	false
 	},
@@ -66434,6 +66549,7 @@
 		"name":		"Poltchageist",
 		"type":		["grass","ghost"],
 		"origin":	[],
+		"family":	1012,
 		"released":	false,
 		"shiny":	false
 	},
@@ -66442,6 +66558,7 @@
 		"name":		"Sinistcha",
 		"type":		["grass","ghost"],
 		"origin":	[],
+		"family":	1012,
 		"released":	false,
 		"shiny":	false
 	},
@@ -66450,6 +66567,7 @@
 		"name":		"Okidogi",
 		"type":		["poison","fighting"],
 		"origin":	[],
+		"family":	1014,
 		"released":	false,
 		"shiny":	false
 	},
@@ -66458,6 +66576,7 @@
 		"name":		"Munkidori",
 		"type":		["poison","psychic"],
 		"origin":	[],
+		"family":	1015,
 		"released":	false,
 		"shiny":	false
 	},
@@ -66466,6 +66585,7 @@
 		"name":		"Fezandipiti",
 		"type":		["poison","fairy"],
 		"origin":	[],
+		"family":	1016,
 		"released":	false,
 		"shiny":	false
 	},
@@ -66474,6 +66594,7 @@
 		"name":		"Ogerpon",
 		"type":		["grass"],
 		"origin":	[],
+		"family":	1017,
 		"released":	false,
 		"shiny":	false,
 		"default":	"Teal Mask",
@@ -66515,6 +66636,7 @@
 		"name":		"Gouging Fire",
 		"type":		["fire","dragon"],
 		"origin":	[],
+		"family":	1020,
 		"released":	false,
 		"shiny":	false
 	},
@@ -66523,6 +66645,7 @@
 		"name":		"Raging Bolt",
 		"type":		["electric","dragon"],
 		"origin":	[],
+		"family":	1021,
 		"released":	false,
 		"shiny":	false
 	},
@@ -66531,6 +66654,7 @@
 		"name":		"Iron Boulder",
 		"type":		["rock","psychic"],
 		"origin":	[],
+		"family":	1022,
 		"released":	false,
 		"shiny":	false
 	},
@@ -66539,6 +66663,7 @@
 		"name":		"Iron Crown",
 		"type":		["steel","psychic"],
 		"origin":	[],
+		"family":	1023,
 		"released":	false,
 		"shiny":	false
 	},
@@ -66547,6 +66672,7 @@
 		"name":		"Terapagos",
 		"type":		["normal"],
 		"origin":	[],
+		"family":	1024,
 		"released":	false,
 		"shiny":	false,
 		"default":	"Normal",
@@ -66561,6 +66687,7 @@
 		"name":		"Pecharunt",
 		"type":		["poison","ghost"],
 		"origin":	[],
+		"family":	1025,
 		"released":	false,
 		"shiny":	false
 	}
