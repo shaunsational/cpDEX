@@ -870,6 +870,15 @@ main {
 				&.shiny .shiny-toggle {
 					color: gold;
 				}
+
+				&.shiny.no-shiny:after {
+					background: var(--bs-highlight-bg);
+                    content: 'Not released yet';
+                    display: block;
+                    font-family: sans-serif;
+                    font-variant: all-small-caps;
+                    text-align: center;
+				}
 			}
 
 			dl:has(dd:empty),
