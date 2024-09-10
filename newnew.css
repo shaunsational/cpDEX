@@ -753,8 +753,8 @@ main {
 				
 				.boost {
 					position: absolute;
-					right: 5px;
-					top: -24px;
+					right: 0;
+					top: -20px;
 					
 					i {
 						background-color: var(--bs-tertiary-bg);
@@ -764,7 +764,7 @@ main {
 						border-radius: 50%;
 						display: inline-block;
 						height: 36px;
-						margin: 0 0 0 5px;
+						margin: 0 0 0 2px;
 						width: 36px;
 						
 						&.clear			{background-image: url(assets/weather_clear.webp);}
@@ -1167,6 +1167,16 @@ footer {
 }
 
 
+@media (min-width: 1280px) {
+	main {
+		#pokemon {
+			#apb {		
+				grid-template-columns: repeat(6, 1fr);	
+			}
+		}
+	}
+}
+
 @media (min-width: 700.1px) {
 	main #pokemon {
 		.grid-table article {
@@ -1232,6 +1242,15 @@ footer {
 		}
 
 		#pokemon {
+			#mon-name .types {
+				position: relative;
+
+				tag {
+					margin: 0 11px 0 0;
+					margin-top: 0;
+				}
+			}
+
 			#apb {		
 				grid-template-columns: repeat(2, 1fr);			
 
